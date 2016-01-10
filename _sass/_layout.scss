@@ -1,0 +1,249 @@
+/**
+ * Site header
+ */
+.site-title {
+    font-family: "Lato", sans-serif;
+    font-size: 24px;
+    line-height: 1.5rem;
+    top: 50px;
+    color: $text-color;
+    display: inline-block;
+    position: fixed;
+    &,
+    &:hover, &:visited {
+      color: $text-color;
+    }
+    @include media-query($on-palm) {
+        position: relative;
+        top: auto;
+        margin: 40px 0 0 0;
+    }
+}
+.site-title span {
+  color: $brand-color;
+}
+
+/**
+ * Site footer
+ */
+.social-media-list {
+  position: fixed;
+  bottom: 20px;
+  margin: 0;
+  @include media-query($on-palm) {
+      position: relative;
+      display: flex;
+  }
+}
+.social-media-list li {
+  list-style: none;
+  margin-bottom: 20px;
+  font-family: "Lato", sans-serif;
+  font-size: 12px;
+  @include media-query($on-palm) {
+      margin-bottom: 0;
+      justify-content: space-around;
+      width: 20%;
+  }
+}
+.social-media-list li a:hover {
+  margin-left: 2px;
+  @include media-query($on-palm) {
+      margin-left: 0;
+  }
+}
+
+
+/**
+ * Page content
+ */
+.page-content {
+    padding: $spacing-unit 0;
+}
+.content {
+  width: -webkit-calc(80% - (#{$spacing-unit} / 2));
+  float: right;
+  @include media-query($on-palm) {
+      float: none;
+      width: 100%;
+  }
+}
+.page-heading {
+    font-size: 20px;
+}
+
+.post-list {
+    margin-left: 0;
+    list-style: none;
+
+    > li {
+        margin-bottom: $spacing-unit;
+    }
+}
+
+.post-list li h2 {
+  margin-bottom: 0px;
+  font-size: 28px;
+}
+
+/**
+ * Index
+ */
+.spacer {
+  padding: 50px 0;
+}
+.profile {
+  @extend %clearfix;
+  display: flex;
+  align-items: baseline;
+  @include media-query($on-laptop) {
+     display: block;
+     padding-top:0;
+  }
+}
+.profile p {
+  z-index: 2;
+  font-size: 42px;
+  width: 100%;
+  align-self: flex-end;
+  margin-left: -50px;
+  line-height: 3.5rem;
+  margin-top: 100px;
+  @include media-query($on-laptop) {
+     margin-left: 0;
+     margin-top: 20px;
+     width: 100%;
+     font-size: 38px;
+     line-height: 3rem;
+  }
+  @include media-query($on-palm) {
+     font-size: 28px;
+     line-height: initial;
+  }
+}
+.profile p a {
+  font-size: 16px;
+  transition: all .3s ease-in-out;
+  display: inline-block;
+  @include media-query($on-palm) {
+     display: block;
+     margin-top: 20px;
+  }
+}
+.profile p a:hover {
+  margin-left: 2px;
+  @include media-query($on-palm) {
+    margin-left: 0;
+  }
+}
+.profile-picture {
+  width: 55%;
+  box-shadow: 15px 20px 80px rgba(0, 0, 0, .15);
+  @include media-query($on-laptop) {
+      width: 300px;
+      height: 300px;
+      border-radius: 50%;
+      box-shadow: none;
+      overflow: hidden;
+  }
+  @include media-query($on-palm) {
+    width: 200px;
+    height: 200px;
+  }
+}
+.profile-picture img {
+  @include media-query($on-laptop) {
+    transform: translate(0,-20%);
+  }
+}
+.title-tag {
+  font-size: 14px;
+  font-family: "Lato", sans-serif;
+  color: $text-color-light;
+}
+.current p {
+  font-size: 28px;
+  @include media-query($on-palm) {
+    font-size: 24px;
+    line-height: initial;
+    margin-bottom: 40px;
+  }
+}
+.current ul {
+  margin-left: 0;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-around;
+}
+
+.current ul li {
+  list-style: none;
+  font-size: 14px;
+  width: -webkit-calc(25% - (#{$spacing-unit} / 2));
+  padding: 0 20px 30px 0;
+  box-sizing: border-box;
+  @include media-query($on-palm) {
+    width: 50%;
+  }
+}
+.current ul li span {
+  font-size: 24px;
+  font-family: "Lato", sans-serif;
+}
+
+.selected-work .work-link {
+  transition: all .3s ease-in-out;
+  display: inline-block;
+}
+.selected-work .work-link:hover {
+  margin-left: 2px;
+}
+
+.contact .contact-link {
+  font-size: 28px;
+}
+
+/**
+ * Posts
+ */
+.post-header {
+    margin-bottom: $spacing-unit;
+}
+
+.post-title {
+    font-size: 42px;
+    letter-spacing: -1px;
+    line-height: 1;
+
+    @include media-query($on-laptop) {
+        font-size: 36px;
+    }
+}
+
+.post-content {
+    margin-bottom: $spacing-unit;
+
+    h2 {
+        font-size: 32px;
+
+        @include media-query($on-laptop) {
+            font-size: 28px;
+        }
+    }
+
+    h3 {
+        font-size: 26px;
+
+        @include media-query($on-laptop) {
+            font-size: 22px;
+        }
+    }
+
+    h4 {
+        font-size: 20px;
+
+        @include media-query($on-laptop) {
+            font-size: 18px;
+        }
+    }
+}
