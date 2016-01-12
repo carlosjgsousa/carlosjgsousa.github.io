@@ -2,24 +2,25 @@
   <div class="wrapper">
     <ul class="social-media-list">
       <li>
-        <a href="https://dribbble.com/carlosjgsousa">Dribbble</a>
+        <a class="color-change" href="https://dribbble.com/carlosjgsousa">Dribbble</a>
       </li>
       <li>
-        <a href="https://medium.com/@carlosjgsousa">Medium</a>
+        <a class="color-change" href="https://medium.com/@carlosjgsousa">Medium</a>
       </li>
       <li>
-        <a href="https://www.linkedin.com/in/carlosjgsousa">LinkedIn</a>
+        <a class="color-change" href="https://www.linkedin.com/in/carlosjgsousa">LinkedIn</a>
       </li>
       <li>
-        <a href="https://twitter.com/carlosjgsousa">Twitter</a>
+        <a class="color-change" href="https://twitter.com/carlosjgsousa">Twitter</a>
       </li>
       <li>
-        <a href="https://www.instagram.com/carlosjgsousa/">Instagram</a>
+        <a class="color-change" href="https://www.instagram.com/carlosjgsousa/">Instagram</a>
       </li>
 
     </ul>
   </div>
 </footer>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -29,4 +30,11 @@
   ga('create', 'UA-49716347-1', 'auto');
   ga('send', 'pageview');
 
+</script>
+<script type="text/javascript">
+
+  $(document).ready(function () {
+      var colourClasses = ["red", "blue", "green", "yellow"];
+      $('.color-change').addClass(colourClasses[(Math.floor(Math.random()*4))]);
+    });
 </script>
