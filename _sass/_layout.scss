@@ -204,12 +204,19 @@
   font-size: 28px;
   display: inline-block;
   transition: all .2s ease-in-out;
+  @include media-query($on-palm) {
+    font-size: 24px;
+  }
 }
 .contact .contact-link:hover {
   margin-left: 2px;
   @include media-query($on-palm) {
     margin-left: 0;
   }
+}
+
+.selected-article h2 {
+  font-size: 28px;
 }
 /**
  * Posts
