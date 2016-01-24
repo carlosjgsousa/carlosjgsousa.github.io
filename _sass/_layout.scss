@@ -153,10 +153,17 @@
   }
 }
 .profile-picture img {
+  opacity: .9;
   @include media-query($on-laptop) {
     transform: translate(0,-20%);
+    opacity: .6;
   }
 }
+.profile-picture.red {background-color:#FF7458;}
+.profile-picture.blue {background-color:#2246D8;;}
+.profile-picture.green {background-color:#31D3AF;}
+.profile-picture.yellow {background-color:#FFC662;}
+
 .title-tag {
   font-size: 14px;
   font-family: "Lato", sans-serif;
