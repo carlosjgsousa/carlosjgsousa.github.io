@@ -225,6 +225,13 @@
 .selected-article h2 {
   font-size: 28px;
   line-height: 2rem;
+  transition: all .2s ease-in-out;
+}
+.selected-article h2:hover {
+  margin-left: 2px;
+  @include media-query($on-palm) {
+      margin-left: 0;
+  }
 }
 /**
  * Posts
