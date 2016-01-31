@@ -277,3 +277,18 @@
         }
     }
 }
+
+.bg {
+  display: flex;
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  @include media-query($on-palm) {
+      display: none;
+  }
+}
+.col {
+  width: 25%;
+  border-left: 1px solid #F9F9F9;
+}

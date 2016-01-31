@@ -27,6 +27,10 @@ body {
     font-feature-settings: "kern" 1;
     font-kerning: normal;
     animation: fadein ease-in 1s;
+    -webkit-font-smoothing: antialiased;
+    -moz-font-smoothing: antialiased;
+    -o-font-smoothing: antialiased;
+    font-smoothing: antialiased;
 }
 
 
