@@ -264,6 +264,7 @@
       border-radius: 5px;
       font-size: 14px;
       cursor: pointer;
+      -webkit-appearance: none;
       @include media-query($on-palm) {
           width: 100%;
           font-size: 16px;
