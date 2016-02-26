@@ -33,8 +33,16 @@
 </script>
 <script type="text/javascript">
 
-  $(document).ready(function () {
-      var colourClasses = ["red", "blue", "green", "yellow"];
-      $('.color-change').addClass(colourClasses[(Math.floor(Math.random()*4))]);
+    $(document).ready(function () {
+        var colourClasses = ["red", "blue", "green", "yellow"];
+        $('.color-change').addClass(colourClasses[(Math.floor(Math.random()*4))]);
+
+        window.sr = ScrollReveal();
+        sr.reveal('.reveal', {
+            easing      : 'ease-in-out',
+            distance    : '40px',
+            scale       : 1
+        });
     });
 </script>
+<script src="https://cdn.jsdelivr.net/scrollreveal.js/3.0.9/scrollreveal.min.js"></script>
