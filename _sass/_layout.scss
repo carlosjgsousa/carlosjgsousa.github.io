@@ -76,9 +76,18 @@
 .post-list {
     margin-left: 0;
     list-style: none;
+    /*display: flex;*/
+    /*flex-wrap: wrap;*/
 
     > li {
         margin-bottom: $spacing-unit;
+        width: 33.3%;
+        @include media-query($on-laptop) {
+            width: 50%;
+        }
+        @include media-query($on-palm) {
+            width: 100%;
+        }
     }
 }
 
@@ -122,6 +131,10 @@
      line-height: initial;
   }
 }
+.profile p span {
+
+}
+
 .profile p a {
   font-size: 16px;
   transition: all .3s ease-in-out;
@@ -207,18 +220,49 @@
   margin-left: 2px;
 }
 
-.contact .contact-link {
-  font-size: 28px;
-  display: inline-block;
-  transition: all .2s ease-in-out;
-  @include media-query($on-palm) {
-    font-size: 24px;
+.contact form {
+  input[type="text"],
+  input[type="email"],
+  textarea {
+      font-size: 14px;
+      border: 1px solid #efefef;
+      padding: 15px;
+      outline: none;
+      width: 250px;
+      box-sizing: border-box;
+      @include media-query($on-palm) {
+          width: 100%;
+      }
   }
-}
-.contact .contact-link:hover {
-  margin-left: 2px;
-  @include media-query($on-palm) {
-    margin-left: 0;
+  textarea {
+      resize: vertical;
+      width: 350px;
+      @include media-query($on-palm) {
+          width: 100%;
+      }
+  }
+  input[type="submit"] {
+      border: none;
+      padding: 10px 20px;
+      color: #FFF;
+      border-radius: 5px;
+      font-size: 14px;
+      cursor: pointer;
+      &:hover {
+          transform: scale(1.05);
+      }
+  }
+  input[type="submit"].red {
+    background:#FF7458;
+  }
+  input[type="submit"].blue {
+    background:#2246D8;
+  }
+  input[type="submit"].green {
+    background:#31D3AF;
+  }
+  input[type="submit"].yellow {
+    background:#FFC662;
   }
 }
 
@@ -276,19 +320,4 @@
             font-size: 18px;
         }
     }
-}
-
-.bg {
-  display: flex;
-  position: fixed;
-  height: 100%;
-  width: 100%;
-  z-index: -1;
-  @include media-query($on-palm) {
-      display: none;
-  }
-}
-.col {
-  width: 25%;
-  border-left: 1px solid #F9F9F9;
 }
