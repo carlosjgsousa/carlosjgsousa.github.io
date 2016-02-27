@@ -187,10 +187,6 @@
     opacity: .6;
   }
 }
-.profile-picture.red {background-color:#FF7458;}
-.profile-picture.blue {background-color:#2246D8;;}
-.profile-picture.green {background-color:#31D3AF;}
-.profile-picture.yellow {background-color:#FFC662;}
 
 .title-tag {
   font-size: 14px;
@@ -226,7 +222,11 @@
   font-size: 24px;
   font-family: "Lato", sans-serif;
 }
-
+.selected-work {
+    img {
+        box-shadow: rgba(0, 0, 0, 0.14902) 15px 20px 80px;
+    }
+}
 .selected-work .work-link {
   transition: all .3s ease-in-out;
   display: inline-block;
