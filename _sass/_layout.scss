@@ -182,7 +182,6 @@
   }
 }
 .profile-picture img {
-  opacity: .9;
   @include media-query($on-laptop) {
     transform: translate(0,-20%);
     opacity: .6;
