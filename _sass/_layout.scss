@@ -99,9 +99,8 @@
             max-width: 100%;
             display: block;
             margin-bottom: 20px;
-            transition: transform .2s ease-in-out;
             &:hover {
-                transform: scale(.98);
+                transform: scale(1.02);
             }
         }
     }
@@ -224,6 +223,9 @@
 }
 .selected-work {
     img {
+        transition: all .2s ease-in-out;
+    }
+    img:hover {
         box-shadow: rgba(0, 0, 0, 0.14902) 15px 20px 80px;
     }
 }
@@ -281,7 +283,7 @@
     background:#31D3AF;
   }
   input[type="submit"].yellow {
-    background:#FFC662;
+    background: $color-yellow;
   }
 }
 

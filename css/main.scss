@@ -31,19 +31,24 @@ $content-width:    1140px;
 $on-palm:          600px;
 $on-laptop:        800px;
 
+$color-red:       #fd5c63;
+$color-blue:      #2246D8;
+$color-green:     #00a78e;
+$color-yellow:    #fbb034;
+
 .color-change.red {
-  color:#FF7458;
+  color: $color-red;
 }
 .color-change.blue {
-  color:#2246D8;
+  color: $color-blue;
 }
 
 .color-change.green {
-  color:#31D3AF;
+  color:$color-green;
 }
 
 .color-change.yellow {
-  color:#FFC662;
+  color: $color-yellow;
 }
 
 
