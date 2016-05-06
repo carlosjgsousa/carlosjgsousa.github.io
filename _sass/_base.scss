@@ -181,7 +181,40 @@ pre {
     }
 }
 
-
+.button {
+    display: block;
+    padding: 10px 20px;
+    color: #FFF !important;
+    font-size: 14px;
+    cursor: pointer;
+    -webkit-appearance: none;
+    transition: all .2s ease-in-out;
+    box-sizing: border-box;
+    text-align: center;
+    max-width: 150px;
+    &:hover {
+        box-shadow: 0 2px 5px 0px rgba(0,0,0,.2);
+    }
+    @include media-query($on-palm) {
+        width: 100%;
+        max-width: 100%;;
+        font-size: 16px;
+        padding: 20px;
+        font-weight: bold;
+    }
+}
+.button.red {
+  background: $color-red;
+}
+.button.blue {
+  background: $color-blue;
+}
+.button.green {
+  background:$color-green;
+}
+.button.yellow {
+  background: $color-yellow;
+}
 
 /**
  * Clearfix

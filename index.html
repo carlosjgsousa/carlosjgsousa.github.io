@@ -57,15 +57,18 @@ layout: default
   </div>
   <div class="selected-work spacer">
     <h2 class="title-tag reveal">Selected projects</h2>
+
     <ul class="post-list reveal">
-      <!-- {% for post in site.posts %}
+<!--
+      {% for post in site.posts %}
         <li>
           <h2>
             <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
           </h2>
           <span class="work-role">{{ post.role}}</span>
         </li>
-      {% endfor %} -->
+      {% endfor %}
+-->
       <li class="reveal">
           <a href="http://www.irishrail.ie/"><img src="images/irish_rail.png" alt="Irish Rail"></a>
         <h2>
@@ -116,21 +119,7 @@ layout: default
         </div>
     </article>
   </div>
-  <div class="contact spacer reveal">
-    <h3 class="title-tag">Get in touch</h3>
-    <!--
-    <a class="contact-link color-change" href="mailto:carlosjgsousa@gmail.com?subject=Hi Carlos!">carlosjgsousa@gmail.com</a>
-    -->
-    <section class="contact-wrapper">
-        <h4 class="color-change">
-            Send me a message about work or enquiries and I'll get back to you as soon as possible.
-        </h4>
-        <form action='https://www.getform.org/f/96bd8a7a-df85-4a6f-a3da-a4df9951bd8a' method="POST">
-            <p><input type="text" name="name" placeholder="Name"></p>
-            <p><input required type="email" name="email" placeholder="Email"></p>
-            <p><textarea placeholder="Your message..." name="message" rows="8" cols="40"></textarea></p>
-            <input class="color-change" type="submit" value="Send">
-        </form>
-    </section>
-  </div>
+
+  {% include contact.html %}
+
 </div>
