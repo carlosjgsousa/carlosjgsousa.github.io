@@ -15,15 +15,9 @@ role: Lead Designer
 <p>
     The first phase of many was to redefine the IA and content types the website would have. This information was gathered by workshops with the business owners and industry research.
 </p>
-<div>
-[show rough IA shot]
-</div>
 <p>
     After identifying the main areas and content types the website would have the following step was to design wireframes to see how all this information would work together. When developing the wireframes I decided to go modular so I could assemble pages based on areas that later would be replicated rather than unique pages. By doing this I guaranteed visual consistency and also saved some time.
 </p>
-<div>
-[show rough module page shot]
-</div>
 <p>
     After the wireframes and workflows done all it was left was to bring the offline brand guidelines into online. We relied on the client to provide guidance along with the brand design agency.
 </p>
