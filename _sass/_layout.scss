@@ -292,6 +292,7 @@
               min-width: 100px;
               max-width: 150px;
               font-weight: bold;
+              font-family: "Lato", sans-serif;
               &:hover {
                   box-shadow: 0 2px 5px 0px rgba(0,0,0,.2);
               }
@@ -310,7 +311,7 @@
             background:$color-blue;
           }
           input[type="submit"].green {
-            background:#31D3AF;
+            background:$color-green;
           }
           input[type="submit"].yellow {
             background: $color-yellow;
@@ -418,5 +419,26 @@
         @include media-query($on-laptop) {
             font-size: 18px;
         }
+    }
+    .post-content-img {
+        margin-top: 50px;
+            img {
+                display: block;
+                max-width: 90%;
+                margin: 0 auto;
+                @media-query($on-laptop) {
+                    max-width: 100%;
+                }
+            }
+            .post-content-img-caption {
+                font-size: 13px;
+                font-weight: normal;
+                text-align: center;
+                font-family: monospace;
+                color: lighten($text-color, 40%);
+            }
+    }
+    .post-content-img + .post-content-img  {
+        margin: 50px auto;
     }
 }
