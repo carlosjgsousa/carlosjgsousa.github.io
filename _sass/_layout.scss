@@ -224,12 +224,20 @@
   font-family: "Lato", sans-serif;
 }
 .selected-work {
+    position: relative;
     img {
         transition: all .2s ease-in-out;
         -webkit-backface-visibility: hidden;
     }
     img:hover {
         box-shadow: rgba(0, 0, 0, 0.14902) 15px 20px 80px;
+    }
+    .work-title {
+        /*
+        margin: 0 20px;
+        position: absolute;
+        top: 20px;
+        */
     }
 }
 .selected-work .work-link {
@@ -245,7 +253,6 @@
     }
     h4 {
         width: 35%;
-        align-self: center;
         font-size: 32px;
         @include media-query($on-laptop) {
             width: 100%;
