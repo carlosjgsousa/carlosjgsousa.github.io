@@ -99,9 +99,12 @@
             max-width: 100%;
             display: block;
             margin-bottom: 20px;
-            &:hover {
-                transform: scale(1.02);
-            }
+        }
+        &:hover {
+            cursor: pointer;
+        }
+        &:hover img {
+            transform: scale(1.02);
         }
     }
 }
@@ -229,15 +232,11 @@
         transition: all .2s ease-in-out;
         -webkit-backface-visibility: hidden;
     }
-    img:hover {
+    li:hover img {
         box-shadow: rgba(0, 0, 0, 0.14902) 15px 20px 80px;
     }
     .work-title {
-        /*
-        margin: 0 20px;
-        position: absolute;
-        top: 20px;
-        */
+
     }
 }
 .selected-work .work-link {
