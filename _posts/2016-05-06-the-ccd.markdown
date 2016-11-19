@@ -97,5 +97,5 @@ role: Lead Designer
     The website redesign resulted in more traffic, reduced bounce rate and more sales enquiries. To check the final result, click on the button bellow.
 </p>
 <div>
-    <p><a class="color-change button" href="">View website</a></p>
+    <p><a class="color-change button" href="http://www.theccd.ie/">View website</a></p>
 </div>
