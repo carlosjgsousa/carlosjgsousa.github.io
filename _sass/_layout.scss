@@ -244,6 +244,22 @@
   display: inline-block;
 }
 
+.dribbble-feed ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    li {
+        width: 50%;
+        padding-right: 30px;
+        box-sizing: border-box;
+        align-self: center;
+        margin-bottom: 30px;
+    }
+}
+
 .contact-wrapper {
     display: flex;
     justify-content: space-between;
