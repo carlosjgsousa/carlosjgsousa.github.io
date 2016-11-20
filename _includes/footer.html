@@ -49,7 +49,7 @@
 
         $.getJSON("https://api.dribbble.com/v1/users/carlosjgsousa/shots/?per_page=4&access_token=693378ab833cdd5de8cdab1bb4b1b9cc6b0e1374e76baaa38adc2f9c734ae246", function(data) {
             data.forEach(function(e){
-              $('.dribbble-feed ul').append('<li><img src="' + e.images.normal + '" /></li>');
+              $('.dribbble-feed ul').append('<li><img src="' + e.images.hidpi + '" /></li>');
             })
           });
 
