@@ -304,7 +304,7 @@
                   width: 100%;
               }
           }
-          input[type="submit"] {
+          input[type="submit"], .button {
               border: none;
               display: block;
               padding: 10px 20px;
@@ -322,6 +322,9 @@
               &:hover {
                   box-shadow: 0 2px 5px 0px rgba(0,0,0,.2);
               }
+              &:active {
+                  transform: scale(.9);
+              }
               @include media-query($on-palm) {
                   width: 100%;
                   max-width: 100%;;
@@ -330,17 +333,29 @@
                   font-weight: bold;
               }
           }
-          input[type="submit"].red {
+          input[type="submit"].red, .button.red {
             background: $color-red;
+            &:hover {
+                background: darken($color-red, 5%);
+            }
           }
-          input[type="submit"].blue {
+          input[type="submit"].blue, .button.blue {
             background:$color-blue;
+            &:hover {
+                background: darken($color-blue, 5%);
+            }
           }
-          input[type="submit"].green {
+          input[type="submit"].green, .button.green {
             background:$color-green;
+            &:hover {
+                background: darken($color-green, 5%);
+            }
           }
-          input[type="submit"].yellow {
-            background: $color-yellow;
+          input[type="submit"].yellow, .button.yellow {
+            background:$color-yellow;
+            &:hover {
+                background: darken($color-yellow, 5%);
+            }
           }
     }
 }
