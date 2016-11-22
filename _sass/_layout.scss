@@ -129,7 +129,7 @@
      padding-top:0;
   }
 }
-.profile p {
+.profile h1 {
   z-index: 2;
   font-size: 42px;
   width: 100%;
@@ -149,11 +149,8 @@
      line-height: initial;
   }
 }
-.profile p span {
 
-}
-
-.profile p a {
+.profile h1 a {
   font-size: 16px;
   transition: all .3s ease-in-out;
   display: inline-block;
@@ -162,7 +159,7 @@
      margin-top: 20px;
   }
 }
-.profile p a:hover {
+.profile h1 a:hover {
   margin-left: 2px;
   @include media-query($on-palm) {
     margin-left: 0;
