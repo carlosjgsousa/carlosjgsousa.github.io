@@ -17,13 +17,10 @@ $spacing-unit:     30px;
 $text-color:       #222222;
 $background-color: #FFFFFF;
 $brand-color:      #2246D8;
-$grey-color:       #FFFFFF; /* remove later */
 
 $brand-color-light: rgba($brand-color, .5);
 $text-color-light: rgba($text-color, .5);
 
-$grey-color-light: lighten($grey-color, 40%); /* remove later */
-$grey-color-dark:  darken($grey-color, 25%); /* remove later */
 
 // Width of the content area
 $content-width:    1140px;
@@ -73,6 +70,5 @@ $color-yellow:    #fbb034;
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
         "base",
-        "layout",
-        "syntax-highlighting"
+        "layout"
 ;

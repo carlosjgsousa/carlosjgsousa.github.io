@@ -12,6 +12,7 @@
     &,
     &:hover, &:visited {
       color: $text-color;
+      box-shadow: none;
     }
     @include media-query($on-palm) {
         position: relative;
@@ -48,7 +49,6 @@
   }
 }
 .social-media-list li a:hover {
-  margin-left: 2px;
   @include media-query($on-palm) {
       margin-left: 0;
   }
@@ -133,10 +133,8 @@
   z-index: 2;
   font-size: 42px;
   width: 100%;
-  align-self: flex-end;
-  margin-left: -50px;
   line-height: 3.5rem;
-  margin-top: 100px;
+  margin-top: 50px;
   @include media-query($on-laptop) {
      margin-left: 0;
      margin-top: 20px;
@@ -190,7 +188,7 @@
 .title-tag {
   font-size: 14px;
   font-family: "Lato", sans-serif;
-  color: $text-color-light;
+  color: $text-color;
 }
 .current p {
   font-size: 28px;
@@ -239,6 +237,9 @@
 .selected-work .work-link {
   transition: all .3s ease-in-out;
   display: inline-block;
+      &:hover {
+          box-shadow: none;
+      }
 }
 
 .dribbble-feed ul {
@@ -369,20 +370,9 @@
     @include media-query($on-palm) {
         display: block;
     }
-    .selected-article--img {
-        width: 50%;
-        img {
-            -webkit-backface-visibility: hidden;
-            transition: all .3s ease-in-out;
-        }
-        &:hover img {
-            transform: scale(1.02);
-            box-shadow: rgba(0, 0, 0, 0.14902) 15px 20px 80px;
-        }
-    }
     .selected-article--content {
-        width: 50%;
-        margin-left: 40px;
+        width: 100%;
+        margin-bottom: 30px;
         align-self: center;
         @include media-query($on-palm) {
             width: 100%;
