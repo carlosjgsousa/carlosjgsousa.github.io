@@ -25,12 +25,6 @@
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 <script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-  ga('create', 'UA-49716347-1', 'auto');
-  ga('send', 'pageview');
   $(document).ready(function () {
       var colourClasses = ["red", "blue", "green", "yellow"];
       $('.color-change').addClass(colourClasses[(Math.floor(Math.random()*4))]);
@@ -42,11 +36,6 @@
           delay: 0,
           mobile: false,
           useDelay: 'onload'
-      });
-      $.getJSON("https://api.dribbble.com/v1/users/carlosjgsousa/shots/?per_page=4&access_token=693378ab833cdd5de8cdab1bb4b1b9cc6b0e1374e76baaa38adc2f9c734ae246", function(data) {
-          data.forEach(function(e){
-            $('.dribbble-feed ul').append('<li><img src="' + e.images.hidpi + '" /></li>');
-          })
       });
   });
 </script>
