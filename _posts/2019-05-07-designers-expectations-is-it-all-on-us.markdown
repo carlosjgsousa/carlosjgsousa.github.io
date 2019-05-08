@@ -1,7 +1,6 @@
 ---
 layout: post
 title:  "Designer’s Expectations — Is it all on us?"
-date:   2019-05-07 11:49:41 +0000
 categories: blog
 ---
 <p>
