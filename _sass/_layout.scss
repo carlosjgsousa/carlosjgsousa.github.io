@@ -37,6 +37,7 @@
       position: relative;
       display: flex;
       flex-wrap: wrap;
+      justify-content: space-around;
   }
 }
 .social-media-list li {
@@ -46,8 +47,7 @@
   font-size: 12px;
   @include media-query($on-palm) {
       margin-bottom: 0;
-      justify-content: space-around;
-      width: 20%;
+      text-align: center;
   }
 }
 .social-media-list li a:hover {
@@ -453,16 +453,15 @@
 .post-content {
     margin-top: 40px;
     margin-bottom: $spacing-unit;
-
+    width: 80%;
+    @include media-query($on-palm) {
+        width: 100%;
+    }
     p {
         font-family: monospace;
         text-align: justify;
         margin: 30px 0;
         font-weight: normal;
-        width: 80%;
-        @include media-query($on-palm) {
-            width: 100%;
-        }
     }
 
     h2 {
