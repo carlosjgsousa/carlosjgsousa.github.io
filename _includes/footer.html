@@ -34,6 +34,14 @@
           mobile: false,
           useDelay: 'onload'
       });
+      count = 0;
+      wordsArray = ["Olá", "Hello", "Hola", "Ciao", "你好", "Bonjour", "Hallo", "こんにちは"];
+      setInterval(function () {
+        count++;
+        $("#greet").fadeOut(400, function () {
+          $(this).text(wordsArray[count % wordsArray.length]).fadeIn(400);
+        });
+      }, 3000);
   });
 </script>
 <script src="https://cdn.jsdelivr.net/scrollreveal.js/3.0.9/scrollreveal.min.js"></script>
