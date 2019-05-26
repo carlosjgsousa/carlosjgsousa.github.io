@@ -304,14 +304,11 @@
 }
 
 .contact-wrapper {
-    display: flex;
-    justify-content: space-between;
     @include media-query($on-laptop) {
         display: block;
     }
     h4 {
-        width: 35%;
-        font-size: 32px;
+        font-size: 1.5em;
         @include media-query($on-laptop) {
             width: 100%;
             font-size: 24px;
@@ -326,36 +323,39 @@
           input[type="text"],
           input[type="email"],
           textarea {
-              font-size: 14px;
-              border: 1px solid #efefef;
+              display: block;
+              font-size: 16px;
+              border: 1px solid #cccccc;
               padding: 15px;
+              border-radius: 50px;
               outline: none;
-              width: 250px;
               box-sizing: border-box;
-              @include media-query($on-palm) {
-                  width: 100%;
-              }
+              width: 100%;
+          }
+          label {
+            display: block;
+            font-size: 14px;
+            margin-bottom: 10px;
           }
           textarea {
               resize: vertical;
-              width: 350px;
+              border-radius: 15px;
+              min-height: 100px;
               @include media-query($on-palm) {
                   width: 100%;
               }
           }
           input[type="submit"], .button {
-              border: none;
+              border-radius: 40px;
               display: block;
-              padding: 10px 20px;
-              color: #FFF !important;
-              font-size: 14px;
+              padding: 20px 40px;
+              font-size: 16px;
               cursor: pointer;
               -webkit-appearance: none;
               transition: all .2s ease-in-out;
               box-sizing: border-box;
               text-align: center;
               min-width: 100px;
-              max-width: 150px;
               font-weight: bold;
               font-family: "Lato", sans-serif;
               &:hover {
@@ -365,35 +365,44 @@
                   transform: scale(.9);
               }
               @include media-query($on-palm) {
-                  width: 100%;
+                  width: 90%;
                   max-width: 100%;;
                   font-size: 16px;
                   padding: 20px;
                   font-weight: bold;
+                  margin: 0 auto;
               }
           }
           input[type="submit"].red, .button.red {
-            background: $color-red;
+            color: $color-red;
+            border: 2px solid $color-red;
             &:hover {
-                background: darken($color-red, 5%);
+                background: $color-red;
+                color: #FFFFFF;
             }
           }
           input[type="submit"].blue, .button.blue {
-            background:$color-blue;
+            color: $color-blue;
+            border: 2px solid $color-blue;
             &:hover {
-                background: darken($color-blue, 5%);
+                background: $color-blue;
+                color: #FFFFFF;
             }
           }
           input[type="submit"].green, .button.green {
-            background:$color-green;
+            color: $color-green;
+            border: 2px solid $color-green;
             &:hover {
-                background: darken($color-green, 5%);
+                background: $color-green;
+                color: #FFFFFF;
             }
           }
           input[type="submit"].yellow, .button.yellow {
-            background:$color-yellow;
+            color: $color-yellow;
+            border: 2px solid $color-yellow;
             &:hover {
-                background: darken($color-yellow, 5%);
+                background: $color-yellow;
+                color: #FFFFFF;
             }
           }
     }
