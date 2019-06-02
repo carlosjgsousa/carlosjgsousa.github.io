@@ -158,10 +158,14 @@
   @extend %clearfix;
   display: flex;
   align-items: baseline;
+  flex-wrap: wrap;
   @include media-query($on-laptop) {
      display: block;
      padding-top:0;
   }
+}
+.profile p {
+  flex-grow: 1;
 }
 .profile h1 {
   z-index: 2;
@@ -176,6 +180,15 @@
      font-size: 38px;
      line-height: 3rem;
   }
+  @include media-query($on-palm) {
+     font-size: 28px;
+     line-height: initial;
+  }
+}
+
+h1 {
+  font-size: 42px;
+  line-height: 3.5rem;
   @include media-query($on-palm) {
      font-size: 28px;
      line-height: initial;
@@ -198,24 +211,15 @@
   }
 }
 .profile-picture {
-  width: 55%;
-  box-shadow: 15px 20px 80px rgba(0, 0, 0, .15);
-  @include media-query($on-laptop) {
-      width: 300px;
-      height: 300px;
-      border-radius: 50%;
-      box-shadow: none;
-      overflow: hidden;
+  width: 300px;
+  height: 300px;
+  img {
+    border-radius: 50%;
+    display: block;
   }
   @include media-query($on-palm) {
     width: 200px;
     height: 200px;
-  }
-}
-.profile-picture img {
-  @include media-query($on-laptop) {
-    transform: translate(0,-20%);
-    opacity: .6;
   }
 }
 
@@ -345,68 +349,70 @@
                   width: 100%;
               }
           }
-          input[type="submit"], .button {
-            background: none;
-              border-radius: 40px;
-              display: block;
-              padding: 20px 40px;
-              font-size: 16px;
-              cursor: pointer;
-              -webkit-appearance: none;
-              transition: all .2s ease-in-out;
-              box-sizing: border-box;
-              text-align: center;
-              min-width: 100px;
-              font-weight: bold;
-              font-family: "Lato", sans-serif;
-              &:hover {
-                  box-shadow: 0 2px 5px 0px rgba(0,0,0,.2);
-              }
-              &:active {
-                  transform: scale(.9);
-              }
-              @include media-query($on-palm) {
-                  width: 90%;
-                  max-width: 100%;;
-                  font-size: 16px;
-                  padding: 20px;
-                  font-weight: bold;
-                  margin: 0 auto;
-              }
-          }
-          input[type="submit"].red, .button.red {
-            color: $color-red;
-            border: 2px solid $color-red;
-            &:hover {
-                background: $color-red;
-                color: #FFFFFF;
-            }
-          }
-          input[type="submit"].blue, .button.blue {
-            color: $color-blue;
-            border: 2px solid $color-blue;
-            &:hover {
-                background: $color-blue;
-                color: #FFFFFF;
-            }
-          }
-          input[type="submit"].green, .button.green {
-            color: $color-green;
-            border: 2px solid $color-green;
-            &:hover {
-                background: $color-green;
-                color: #FFFFFF;
-            }
-          }
-          input[type="submit"].yellow, .button.yellow {
-            color: $color-yellow;
-            border: 2px solid $color-yellow;
-            &:hover {
-                background: $color-yellow;
-                color: #FFFFFF;
-            }
-          }
     }
+}
+
+input[type="submit"], .button {
+    background: none;
+    border-radius: 40px;
+    display: inline-block;
+    padding: 20px 40px;
+    font-size: 16px;
+    cursor: pointer;
+    -webkit-appearance: none;
+    transition: all .2s ease-in-out;
+    box-sizing: border-box;
+    text-align: center;
+    min-width: 100px;
+    font-weight: bold;
+    font-family: "Lato", sans-serif;
+    &:hover {
+        box-shadow: 0 2px 5px 0px rgba(0,0,0,.2);
+    }
+    &:active {
+        transform: scale(.9);
+    }
+    @include media-query($on-palm) {
+        width: 90%;
+        max-width: 100%;;
+        font-size: 16px;
+        padding: 20px;
+        font-weight: bold;
+        margin: 0 auto;
+        display: block;
+    }
+}
+input[type="submit"].red, .button.red {
+  color: $color-red;
+  border: 2px solid $color-red;
+  &:hover {
+      background: $color-red;
+      color: #FFFFFF;
+  }
+}
+input[type="submit"].blue, .button.blue {
+  color: $color-blue;
+  border: 2px solid $color-blue;
+  &:hover {
+      background: $color-blue;
+      color: #FFFFFF;
+  }
+}
+input[type="submit"].green, .button.green {
+  color: $color-green;
+  border: 2px solid $color-green;
+  &:hover {
+      background: $color-green;
+      color: #FFFFFF;
+  }
+}
+input[type="submit"].yellow, .button.yellow {
+  color: $color-yellow;
+  border: 2px solid $color-yellow;
+  &:hover {
+      background: $color-yellow;
+      color: #FFFFFF;
+  }
 }
 
 .selected-article h2 {
