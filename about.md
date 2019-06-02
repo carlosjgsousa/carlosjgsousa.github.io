@@ -4,7 +4,7 @@ title: About me
 permalink: /about/
 ---
 <div class="profile-picture">
-  <img src="/images/profile.jpg" alt="Carlos portrait">
+  <img src="/assets/images/profile.jpg" alt="Carlos portrait">
 </div>
 <p>Hi. I’m Carlos but many people call me Kiko, a nickname given by my parents when I was just a few months old. I was born in Madeira Island, Portugal, Google it if you don’t know where it is, it’s a beautiful place.
 </p>
