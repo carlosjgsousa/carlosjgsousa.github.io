@@ -10,7 +10,7 @@ permalink: /about/
 </p>
 <p>Everything started when I downloaded Photoshop 7.0 around 2003 or so. Back then I was already playing around with HTML and Flash, but the visuals were missing so I gave it a shot. I was hooked. A few years later I graduated in Communications & Multimedia and I was ready to tackle the world, one pixel at a time.
 </p>
-<p>Throughout the years I worked in many industries and projects as a designer and frontend developer. As time progressed my career shifted to user experience and my background with development and visual design has given me an edge in understanding how things are built and work.
+<p>Throughout the years I worked in many industries and projects as a designer and frontend developer. As time progressed my career shifted to user experience and my background in development and visual design has given me an edge in understanding how things are built and work.
 </p>
 <p>In the last year I’ve been leading a team of designers which has challenged me a lot not only as a professional but as a person too. It has been a very rewarding experience and I’m grateful to have been given this opportunity.
 </p>
