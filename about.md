@@ -1,9 +1,8 @@
 ---
 layout: page
-title:
+title: About me
 permalink: /about/
 ---
-<h1>About me</h1>
 <div class="profile-picture">
   <img src="/images/profile.jpg" alt="Carlos portrait">
 </div>

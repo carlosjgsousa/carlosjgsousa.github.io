@@ -459,16 +459,14 @@ input[type="submit"].yellow, .button.yellow {
 
 .post-title {
     font-size: 42px;
-    letter-spacing: -1px;
     line-height: 1;
 
     @include media-query($on-laptop) {
-        font-size: 36px;
+        font-size: 28px;
     }
 }
 
 .post-content {
-    margin-top: 40px;
     margin-bottom: $spacing-unit;
     width: 80%;
     @include media-query($on-palm) {
