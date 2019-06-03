@@ -88,6 +88,12 @@
 /**
  * Page content
  */
+ .post-content ul, .post-content ol {
+   font-weight: normal;
+   li {
+     margin: 10px 0;
+   }
+ }
 .page-content {
     padding: $spacing-unit 0;
 }
@@ -416,7 +422,7 @@ input[type="submit"].yellow, .button.yellow {
 }
 
 .selected-article h2 {
-  font-size: 28px;
+  font-size: 32px;
   line-height: 2rem;
   transition: all .2s ease-in-out;
 }
@@ -500,6 +506,14 @@ input[type="submit"].yellow, .button.yellow {
         @include media-query($on-laptop) {
             font-size: 18px;
         }
+    }
+    blockquote {
+      font-weight: normal;
+      font-size: 20px;
+      letter-spacing: normal;
+      @include media-query($on-laptop) {
+          font-size: 18px;
+      }
     }
     .post-content-img {
         margin-top: 50px;
