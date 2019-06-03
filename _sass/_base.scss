@@ -177,6 +177,15 @@ pre {
     }
 }
 
+h2 {
+    font-size: 32px;
+    line-height: 1.5em;
+    @include media-query($on-laptop) {
+      font-size: 28px;
+      line-height: 1.2em;
+    }
+}
+
 /**
  * Clearfix
  */

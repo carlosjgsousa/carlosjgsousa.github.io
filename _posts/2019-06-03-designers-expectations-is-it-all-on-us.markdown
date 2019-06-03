@@ -2,7 +2,7 @@
 layout: post
 title:  "Designer’s Expectations — Is it all on us?"
 categories: blog
-permalink: /:categories/:title:output_ext
+excerpt: "Lets just hope that most of us are ready for what will be expected."
 ---
 <p>
 <img src="/assets/images/designers-expectations.png" alt="">
