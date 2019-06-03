@@ -529,3 +529,15 @@ input[type="submit"].yellow, .button.yellow {
         margin: 50px auto;
     }
 }
+
+.share-buttons {display: flex; font-weight: normal;}
+.share-buttons > div { margin-right: 10px; align-items: flex-start;}
+.share-buttons > div > svg {height: 16px; fill: #333333; margin-top: 5px;}
+.share-buttons > div:hover {cursor: pointer;}
+.share-buttons > div.facebook:hover > svg {fill: #3B5998;}
+.share-buttons > div.twitter:hover > svg {fill: #55ACEE;}
+.share-buttons > div.linkedin:hover > svg {fill: #0077b5;}
+.share-buttons > div.instagram:hover > svg {fill: #C73B92;}
+.share-buttons > div.facebook > svg {height: 18px;}
+.share-buttons > div.twitter > svg {height: 20px;}
+.share-buttons > div.linkedin > svg {height: 19px;}
