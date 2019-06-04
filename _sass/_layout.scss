@@ -98,7 +98,7 @@
     padding: $spacing-unit 0;
 }
 .content {
-  width: -webkit-calc(80% - (#{$spacing-unit} / 2));
+  width: calc(80% - (#{$spacing-unit} / 2));
   float: right;
   @include media-query($on-palm) {
       float: none;
