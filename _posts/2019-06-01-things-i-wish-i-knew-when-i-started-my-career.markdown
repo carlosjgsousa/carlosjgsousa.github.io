@@ -11,7 +11,7 @@ excerpt: "If I ever had a coach or a mentor, these would be the things I wish I 
 </p>
 <p>As a designer your role spans across many subjects like analytics, research, strategy, business, SEO, visual design, interaction design, user experience, frontend development, content, marketing and the list goes on. While I’m not an expert in every single one of these areas, I know more than enough to help me communicate and collaborate with others to achieve a goal, this goal can be a business challenge or a user challenge, and most of the time these are the same.
 </p>
-<p>A business challenge is what’s important for the business, may it be reduce churn, increase conversion rates, better NPS or any other KPI that measures success for that company. It’s important as a designer that you understand these, because without a business, there are no users, it is very important that you understand this.
+<p>A business challenge is what’s important for the business, may it be reduce churn, increase conversion rates, better NPS or any other KPI that measures success for that company. It’s important as a designer that you understand these, because without a business, there are no users, period!
 </p>
 <p>A user challenge can be many things too but to understand these one needs a special skill called empathy. Empathy is something you learn through experience, it’s looking at analytics, conducting quantitative and qualitative research, it's talking to your users, understanding what they need, what are they trying to accomplish, you need empathy in order to fully understand the reasoning behind every action.
 </p>
