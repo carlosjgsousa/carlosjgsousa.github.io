@@ -20,3 +20,6 @@ permalink: /:categories/:title:output_ext
 # Build settings
 markdown: kramdown
 include: ['images']
+
+plugins:
+  - jekyll-sitemap
