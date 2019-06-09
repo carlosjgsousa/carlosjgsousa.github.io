@@ -2,6 +2,7 @@
 layout: page
 title: About me
 permalink: /about/
+description: A brief description about Carlos Sousa and his professional path.
 ---
 <div class="profile-picture">
   <img src="/assets/images/profile.jpg" alt="Carlos portrait">
