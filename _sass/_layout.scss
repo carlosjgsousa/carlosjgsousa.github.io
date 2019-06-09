@@ -1,8 +1,17 @@
 /**
  * Site header
  */
+
+ h2 {
+     font-size: 32px;
+     line-height: 1.5em;
+     @include media-query($on-laptop) {
+       font-size: 28px;
+       line-height: 1.2em;
+     }
+ }
+
 .site-title {
-    font-family: "Lato", sans-serif;
     font-size: 24px;
     line-height: 1.5rem;
     top: 50px;
@@ -43,7 +52,6 @@
 .social-media-list li {
   list-style: none;
   margin-bottom: 20px;
-  font-family: "Lato", sans-serif;
   font-size: 12px;
   @include media-query($on-palm) {
       margin-bottom: 0;
@@ -104,9 +112,6 @@
       float: none;
       width: 100%;
   }
-}
-.page-heading {
-    font-size: 20px;
 }
 
 .post-list {
@@ -233,7 +238,6 @@ h1 {
 
 .title-tag {
   font-size: 14px;
-  font-family: "Lato", sans-serif;
   color: $text-color;
   @include media-query($on-palm) {
       font-size: 18px;
@@ -255,7 +259,6 @@ h1 {
 }
 
 .current ul li {
-    font-family: "Lato", sans-serif;
     font-weight: 100;
     list-style: none;
     font-size: 14px;
@@ -268,7 +271,6 @@ h1 {
 }
 .current ul li span {
   font-size: 24px;
-  font-family: "Lato", sans-serif;
 }
 .selected-work {
     position: relative;
@@ -291,28 +293,7 @@ h1 {
       }
 }
 .selected-work .work-title p {
-  font-family: "Lato", sans-serif;
   font-weight: 100;
-}
-
-.dribbble-feed ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    li {
-        width: 50%;
-        padding-right: 30px;
-        box-sizing: border-box;
-        align-self: center;
-        margin-bottom: 30px;
-        @include media-query($on-palm) {
-        width: 100%;
-        padding-right: 0;
-        }
-    }
 }
 
 .contact-wrapper {
@@ -373,7 +354,6 @@ input[type="submit"], .button {
     text-align: center;
     min-width: 100px;
     font-weight: bold;
-    font-family: "Lato", sans-serif;
     &:hover {
         box-shadow: 0 2px 5px 0px rgba(0,0,0,.2);
     }
@@ -443,7 +423,6 @@ input[type="submit"].yellow, .button.yellow {
             margin-top: 20px;
         }
         p {
-            font-family: "Lato", sans-serif;
             font-weight: 100;
             @include media-query($on-laptop) {
                 display: none;
@@ -463,14 +442,6 @@ input[type="submit"].yellow, .button.yellow {
     margin-bottom: $spacing-unit;
 }
 
-.post-title {
-    font-size: 42px;
-    line-height: 1;
-
-    @include media-query($on-laptop) {
-        font-size: 28px;
-    }
-}
 
 .post-content {
     margin-bottom: $spacing-unit;
@@ -479,7 +450,6 @@ input[type="submit"].yellow, .button.yellow {
         width: 100%;
     }
     p {
-        font-family: "Lato", sans-serif;
         margin: 30px 0;
         font-weight: normal;
     }
@@ -533,7 +503,6 @@ input[type="submit"].yellow, .button.yellow {
                 font-size: 13px;
                 font-weight: normal;
                 text-align: center;
-                font-family: "Lato", sans-serif;
                 color: lighten($text-color, 40%);
             }
     }
@@ -546,10 +515,9 @@ input[type="submit"].yellow, .button.yellow {
 .share-buttons > div { margin-right: 10px; align-items: flex-start;}
 .share-buttons > div > svg {height: 16px; fill: #333333; margin-top: 5px;}
 .share-buttons > div:hover {cursor: pointer;}
-.share-buttons > div.facebook:hover > svg {fill: #3B5998;}
-.share-buttons > div.twitter:hover > svg {fill: #55ACEE;}
-.share-buttons > div.linkedin:hover > svg {fill: #0077b5;}
-.share-buttons > div.instagram:hover > svg {fill: #C73B92;}
-.share-buttons > div.facebook > svg {height: 18px;}
-.share-buttons > div.twitter > svg {height: 20px;}
-.share-buttons > div.linkedin > svg {height: 19px;}
+.share-buttons > .facebook:hover > svg {fill: #3B5998;}
+.share-buttons > .twitter:hover > svg {fill: #55ACEE;}
+.share-buttons > .linkedin:hover > svg {fill: #0077b5;}
+.share-buttons > .facebook > svg {height: 18px;}
+.share-buttons > .twitter > svg {height: 20px;}
+.share-buttons > .linkedin > svg {height: 19px;}
