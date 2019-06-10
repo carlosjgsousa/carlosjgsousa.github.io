@@ -259,7 +259,7 @@ h1 {
 }
 
 .current ul li {
-    font-weight: 100;
+    font-weight: normal;
     list-style: none;
     font-size: 14px;
     width: -webkit-calc(25% - (#{$spacing-unit} / 2));
@@ -293,7 +293,7 @@ h1 {
       }
 }
 .selected-work .work-title p {
-  font-weight: 100;
+  font-weight: normal;
 }
 
 .contact-wrapper {
@@ -423,7 +423,7 @@ input[type="submit"].yellow, .button.yellow {
             margin-top: 20px;
         }
         p {
-            font-weight: 100;
+            font-weight: normal;
             @include media-query($on-laptop) {
                 display: none;
             }
