@@ -5,7 +5,7 @@ categories: blog
 excerpt: Lets just hope that most of us are ready for what will be expected.
 
 ---
-\[expectations\]: /assets/images/designers-expectations.png "Designer Expectations"
+<img src="assets/images/designers-expectations.png" alt="Design expectations">
 
 Let me tell you a story. This was 2008, I was out of college looking for my first job as a designer. Your typical big tech start-up or a rich design culture didn’t exist back then, so one had to look very hard to find something reasonable.
 
@@ -18,7 +18,7 @@ Let me tell you why reasonable. Back in 2008 an average design job spec went on 
 
 The above was the norm. Designers out of college had to be comfortable with all that. You had to if you wanted a job. Eventually my first job was at a local newspaper where I helped with their website, designing and coding, paginate the journal in Indesign so it could go to print on Thursdays, take out the camera, get on the streets and do video interviews so I could edit in Premiere to put them on the website later that day.
 
-Let us fast forward to today. Today the expectations are quite different for a designer coming out of college but still a bit unrealistic in my point of view. Here is a list of a few things that are basic expectations of designers in our present. 
+Let us fast forward to today. Today the expectations are quite different for a designer coming out of college but still a bit unrealistic in my point of view. Here is a list of a few things that are basic expectations of designers in our present.
 
 ## 1. Designers are the voice of the user
 
@@ -36,7 +36,7 @@ There is not enough emphasis on how these design led companies work. It’s not 
 
 The design industry is probably one of the most demanding ones. Is there any other discipline that has changed so much in few years? Remember how I started this article, on how in 2008 a designer was expected to know all those things? Now today it’s all that and more.
 
-> Designers should code; Designers should sell; Designers should write; Designers should… 
+> Designers should code; Designers should sell; Designers should write; Designers should…
 
 The other day, as I was trying to write a designer job description and responsibilities and I stopped for a moment to realise how crazy this was. Designers today are expected to understand aesthetics, code, animations, psychology and human behaviour, analytics, product management, how to communicate, to speak business and the list goes on.
 
