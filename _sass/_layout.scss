@@ -512,12 +512,13 @@ input[type="submit"].yellow, .button.yellow {
 }
 
 .share-buttons {display: flex; font-weight: normal;}
-.share-buttons > div { margin-right: 10px; align-items: flex-start;}
-.share-buttons > div > svg {height: 16px; fill: #333333; margin-top: 5px;}
+.share-buttons > div { margin-right: 10px; align-items: flex-start; border: 2px solid; border-radius: 50%; width: 40px; height: 40px; display: flex; align-items: center; justify-content: center; transition: all .2s linear;}
+.share-buttons > div > svg {height: 16px; fill: #333333;}
 .share-buttons > div:hover {cursor: pointer;}
-.share-buttons > .facebook:hover > svg {fill: #3B5998;}
-.share-buttons > .twitter:hover > svg {fill: #55ACEE;}
-.share-buttons > .linkedin:hover > svg {fill: #0077b5;}
+.share-buttons > .facebook:hover { background: #3B5998; border: 2px solid #3B5998;}
+.share-buttons > .twitter:hover { background: #55ACEE; border: 2px solid #55ACEE;}
+.share-buttons > .linkedin:hover { background: #0077b5; border: 2px solid #0077b5;}
+.share-buttons > div:hover > svg {fill: #FFFFFF;}
 .share-buttons > .facebook > svg {height: 18px;}
 .share-buttons > .twitter > svg {height: 20px;}
 .share-buttons > .linkedin > svg {height: 19px;}
