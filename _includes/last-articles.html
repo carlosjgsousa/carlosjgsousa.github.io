@@ -3,7 +3,7 @@
   {% for post in site.posts limit:3 %}
     {% if post.url != page.url %}
       {% if forloop.index < 3 or found %}
-          <h3><a class="color-change" href="{{ post.url }}">{{ post.title }}</a></h3>
+          <h2><a class="color-change" href="{{ post.url }}">{{ post.title }}</a></h2>
       {% endif %}
     {% else %}
       {% assign found = true %}
