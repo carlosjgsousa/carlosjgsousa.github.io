@@ -11,7 +11,7 @@ Everything started when I downloaded Photoshop 7.0 around 2003 or so. Back then 
 
 Throughout the years I worked in many industries and projects as a designer and frontend developer. As time progressed my career shifted to user experience and my background in development and visual design has given me an edge in understanding how things are built and work.
 
-In the last year I’ve been leading a team of designers which has challenged me a lot not only as a professional but as a person too. It has been a very rewarding experience and I’m grateful to have been given this opportunity.
+In the last few years, I’ve been leading a team of designers which has challenged me a lot not only as a professional but as a person too. It has been a very rewarding experience and I’m grateful to have been given this opportunity.
 
 Personality wise, Belbin team role says I’m a Shaper and Myers–Briggs Type Indicator says I’m a ISTJ. What all this means is, I’m driven, curious, objective, I like facts and I am decisive. I’m a team player and someone who is there to give you a hand when you need. My emotions are not in front of mind but if anything people management is teaching me is how to deal with this.
 
