@@ -14,3 +14,5 @@ fields:
 - type: textarea
   name: excerpt
   label: excerpt
+pages:
+- _posts/perfection-doesn-t-exist-in-product-design.md
