@@ -23,7 +23,7 @@ _Spotify before and after_
 ![/uploads/twitter.jpg](https://app.forestry.io/sites/02d0qhfgagdrqa/body-media//uploads/twitter.jpg)  
 _Twitter before and after_
 
-Probably most of us don’t remember these products like that at all, because we tend to focus too much on the end result. Our mindset of what good product design needs to mature and focus on how we get there and not so much on how it looks today.
+Probably most of us don’t remember these products like that at all, because we tend to focus too much on the end result. Our mindset of what good product design is needs to mature and we need to focus on how we get there and not so much on how it looks.
 
 So on what you should focus on? Try to answer these 3 questions and you’ll always be on the right path.
 
