@@ -35,7 +35,7 @@ This is the most fundamental and complex question you need to be able to answer.
 
 ### 2. Is there a market fit?
 
-This is probably why most of the ideas fail in the first place. You might have something that solves a big problem but is the market ready? And is it your strategy and execution the right one? One of the most important things that a lot of start-ups don’t do enough is just put something out there and check the viability, and put as little effort in that as possible (Work smart not hard). The Design Sprint method from Google Ventures promotes this very well, this is how they help their incubator start-ups to validate their ideas in the quickest way possible. The measure here is not how it looks, it’s how it performs and is accepted.
+This is probably why most of the ideas fail in the first place. You might have something that solves a big problem but is the market ready? And is it your strategy and execution the right one? One of the most important things that a lot of start-ups don’t do enough is just put something out there and check the viability, and put as little effort in that as possible (Work smart, not hard). The Design Sprint method from Google Ventures promotes this very well, this is how they help their incubator start-ups to validate their ideas in the quickest way possible. The measure here is not how it looks, it’s how it performs and is accepted.
 
 ### 3. Build, measure and what have you learnt?
 
