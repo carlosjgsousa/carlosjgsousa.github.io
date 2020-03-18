@@ -2,10 +2,8 @@
 layout: post
 title: Perfection doesn’t exist in Product Design
 categories: blog
-excerpt: There is a perception that every product that exists today was born out of
-  sheer inspiration and the design gods favoured them over everyone else. As humans
-  our brain is what makes us different from everything else on the planet, but it
-  comes with its quirks.
+excerpt: The digital industry does a good job at promoting the new ways of working
+  and the new tools, but it does not promote enough the journey.
 
 ---
 There is a perception that every product that exists today was born out of sheer inspiration and the design gods favoured them over everyone else. As humans, our brain is what makes us different from everything else on the planet, but it comes with its quirks. We are very biased when it comes to recalling things, not only we appropriate other people’s memories and pass them as our own, not on purpose, but we tend to forget how things were in the past, or how things evolved into what we have today.
