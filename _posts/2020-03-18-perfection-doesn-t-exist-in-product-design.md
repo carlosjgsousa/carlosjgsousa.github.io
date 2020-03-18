@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Perfection doesn’t exist in Product Design
-categories: ''
+categories: blog
 excerpt: There is a perception that every product that exists today was born out of
   sheer inspiration and the design gods favoured them over everyone else. As humans
   our brain is what makes us different from everything else on the planet, but it
