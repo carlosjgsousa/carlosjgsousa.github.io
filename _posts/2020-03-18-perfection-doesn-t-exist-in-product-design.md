@@ -27,15 +27,15 @@ Probably most of us don’t remember these products like that at all, because we
 
 So on what you should focus on? Try to answer these 3 questions and you’ll always be on the right path.
 
-### 1. What problems are you trying to solve?
+## 1. What problems are you trying to solve?
 
 This is the most fundamental and complex question you need to be able to answer. Getting this right will probably define everything you’re going to work on, your ability to pivot, to adjust and make sharp turns when needed. Understanding everything about the industry, about its users, their habits, needs and wants, anxieties and expectations. Get this one wrong and you’ll be on the path of failure, but get it right, you’ll have a tool to always know you’re going in the right direction.
 
-### 2. Is there a market fit?
+## 2. Is there a market fit?
 
 This is probably why most of the ideas fail in the first place. You might have something that solves a big problem but is the market ready? And is it your strategy and execution the right one? One of the most important things that a lot of start-ups don’t do enough is just put something out there and check the viability, and put as little effort in that as possible (Work smart, not hard). The Design Sprint method from Google Ventures promotes this very well, this is how they help their incubator start-ups to validate their ideas in the quickest way possible. The measure here is not how it looks, it’s how it performs and is accepted.
 
-### 3. Build, measure and what have you learnt?
+## 3. Build, measure and what have you learnt?
 
 This is, to me, the holy grail of product development. If you don’t have this mentality, you’re wasting time and energy. This is pure logic, almost like a scientific method to understand if you’re going in the right direction. Build your idea based on insights, measure it by establishing key signals and metrics to measure success/failure and with all that information captured, analyse and learn from it, come up with new ideas and build them, measure them and again and again and again.
 
