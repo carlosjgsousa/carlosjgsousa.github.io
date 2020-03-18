@@ -27,7 +27,7 @@ Probably most of us don’t remember these products like that at all, because we
 
 So on what you should focus on? Try to answer these 3 questions and you’ll always be on the right path.
 
-### 1. What problem are you trying to solve?
+### 1. What problems are you trying to solve?
 
 This is the most fundamental and complex question you need to be able to answer. Getting this right will probably define everything you’re going to work on, your ability to pivot, to adjust and make sharp turns when needed. Understanding everything about the industry, about its users, their habits, needs and wants, anxieties and expectations. Get this one wrong and you’ll be on the path of failure, but get it right, you’ll have a tool to always know you’re going in the right direction.
 
@@ -37,7 +37,7 @@ This is probably why most of the ideas fail in the first place. You might have s
 
 ### 3. Build, measure and what have you learnt?
 
-This is, to me, the holy grail of product development. If you don’t have this mentality, you’re wasting some much time and energy. This is pure logic, almost like a scientific method to understand if you’re going in the right direction. Build your idea based on insights, measure it by establishing key signals and metrics to measure success/failure and with all that information captured, analyse and learn from it, come up with new ideas and build them, measure them and again and again and again.
+This is, to me, the holy grail of product development. If you don’t have this mentality, you’re wasting time and energy. This is pure logic, almost like a scientific method to understand if you’re going in the right direction. Build your idea based on insights, measure it by establishing key signals and metrics to measure success/failure and with all that information captured, analyse and learn from it, come up with new ideas and build them, measure them and again and again and again.
 
 So if you’re just starting your career or you are well into it, please adopt this mindset, the tools, ways of working and trends will come and go but this will always stay. Instead of trying to follow the next big thing in iconography, UI design or the new product feature, ask yourself first, What am I accomplishing with this? Why is this important? What problem am I trying to solve here? How will people react to this? How can I know this will have the impact I want it to have and how can I measure it?
 
