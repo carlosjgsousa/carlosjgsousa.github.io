@@ -8,19 +8,25 @@ excerpt: There is a perception that every product that exists today was born out
   comes with its quirks.
 
 ---
-There is a perception that every product that exists today was born out of sheer inspiration and the design gods favoured them over everyone else. As humans, our brain is what makes us different from everything else on the planet, but it comes with its quirks. We are very biased when it comes to recalling things, not only we appropriate other people’s memories and pass them as our own, not on purpose, but we really tend to forget how things were in the past, or how things evolved into what we have today.
+There is a perception that every product that exists today was born out of sheer inspiration and the design gods favoured them over everyone else. As humans, our brain is what makes us different from everything else on the planet, but it comes with its quirks. We are very biased when it comes to recalling things, not only we appropriate other people’s memories and pass them as our own, not on purpose, but we tend to forget how things were in the past, or how things evolved into what we have today.
 
-So what does this have to do with design and product? A lot actually!
+So what does this have to do with design and product? A lot!
 
 The digital industry does a good job at promoting the new ways of working and the new tools, but it does not promote enough the journey, what are the events or initiatives that led to their success. We as humans know that what we do, have and know today is because of history.
 
 Let’s look at some of the most successful products we have today, I think most of you reading this will agree that some of these are design references today.
 
-**Facebook before and after**
+![/uploads/facebook-2.jpg](https://app.forestry.io/sites/02d0qhfgagdrqa/body-media//uploads/facebook-2.jpg)
 
-**Spotify before and after**
+Facebook before and after
 
-**Twitter before and after**
+![/uploads/spotify.jpg](https://app.forestry.io/sites/02d0qhfgagdrqa/body-media//uploads/spotify.jpg)
+
+Spotify before and after
+
+![/uploads/twitter.jpg](https://app.forestry.io/sites/02d0qhfgagdrqa/body-media//uploads/twitter.jpg)
+
+Twitter before and after
 
 Probably most of us don’t remember these products like that at all, because we tend to focus too much on the end result. Our mindset of what good product design needs to mature and focus on how we get there and not so much on how it looks today.
 
