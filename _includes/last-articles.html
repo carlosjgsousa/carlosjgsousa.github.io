@@ -1,9 +1,9 @@
 <div class="last-articles spacer reveal">
-  <h3 class="title-tag">More articles</h3>
+  <h4 class="title-tag">More articles</h4>
   {% for post in site.posts limit:3 %}
     {% if post.url != page.url %}
       {% if forloop.index < 3 or found %}
-          <h2><a class="color-change" href="{{ post.url }}">{{ post.title }}</a></h2>
+          <h3><a class="color-change" href="{{ post.url }}">{{ post.title }}</a></h3>
       {% endif %}
     {% else %}
       {% assign found = true %}

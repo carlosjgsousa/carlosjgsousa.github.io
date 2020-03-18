@@ -296,6 +296,13 @@ h1 {
   font-weight: normal;
 }
 
+.last-articles h3 {
+        font-size: 26px;
+        @include media-query($on-laptop) {
+            font-size: 22px;
+        }
+}
+
 .contact-wrapper {
     @include media-query($on-laptop) {
         display: block;
