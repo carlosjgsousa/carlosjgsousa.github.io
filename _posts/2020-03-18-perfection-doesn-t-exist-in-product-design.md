@@ -1,5 +1,5 @@
 ---
-layout: ''
+layout: post
 title: Perfection doesn’t exist in Product Design
 categories: ''
 excerpt: There is a perception that every product that exists today was born out of
@@ -16,13 +16,9 @@ The digital industry does a good job at promoting the new ways of working and th
 
 Let’s look at some of the most successful products we have today, I think most of you reading this will agree that some of these are design references today.
 
-![/uploads/facebook-2.jpg](https://app.forestry.io/sites/02d0qhfgagdrqa/body-media//uploads/facebook-2.jpg)
+![/uploads/facebook-2.jpg](https://app.forestry.io/sites/02d0qhfgagdrqa/body-media//uploads/facebook-2.jpg)Facebook before and after
 
-Facebook before and after
-
-![/uploads/spotify.jpg](https://app.forestry.io/sites/02d0qhfgagdrqa/body-media//uploads/spotify.jpg)
-
-Spotify before and after
+![/uploads/spotify.jpg](https://app.forestry.io/sites/02d0qhfgagdrqa/body-media//uploads/spotify.jpg)Spotify before and after
 
 ![/uploads/twitter.jpg](https://app.forestry.io/sites/02d0qhfgagdrqa/body-media//uploads/twitter.jpg)
 
