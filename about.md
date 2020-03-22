@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About me
+title: About me – Carlos Sousa Product Designer
 permalink: "/about/"
 description: A brief description about Carlos Sousa and his professional path.
 

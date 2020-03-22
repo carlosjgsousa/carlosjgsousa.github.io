@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Perfection doesn’t exist in Product Design
+title: Perfection doesn’t exist in Product Design – Carlos Sousa Product Designer
 categories: blog
 excerpt: The digital industry does a good job at promoting the new ways of working and the new tools, but it does not promote enough the journey.
 description: The digital industry does a good job at promoting the new ways of working and the new tools, but it does not promote enough the journey.

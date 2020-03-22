@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Designer’s Expectations — Is it all on us?
+title: Designer’s Expectations — Is it all on us? – Carlos Sousa Product Designer
 categories: blog
 excerpt: Lets just hope that most of us are ready for what will be expected.
 description: Lets just hope that most of us are ready for what will be expected.

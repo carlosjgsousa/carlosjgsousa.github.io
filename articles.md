@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Writings
+title: Writings - Carlos Sousa Product Designer
 permalink: "/articles/"
 description: My articles
 
