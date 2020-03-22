@@ -8,12 +8,13 @@
     <form method="POST" action="https://formspree.io/carlosjgsousa@gmail.com">
       <p>
         <label for="email">Your email</label>
-        <input type="email" name="email">
+        <input type="email" name="email" required>
       </p>
       <p>
         <label for="message">Your message</label>
-        <textarea name="message" placeholder=""></textarea>
+        <textarea name="message" placeholder="" required></textarea>
       </p>
+      <input type="text" name="_gotcha" style="display:none" />
       <button class="button color-change" type="submit">Hit me up</button>
     </form>
   </section>
