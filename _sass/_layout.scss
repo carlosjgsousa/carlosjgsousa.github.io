@@ -4,7 +4,7 @@
 
  h2 {
      font-size: 32px;
-     line-height: 1.5em;
+     line-height: 1.3em;
      @include media-query($on-laptop) {
        font-size: 24px;
        line-height: 1.2em;
@@ -469,12 +469,12 @@ input[type="submit"].yellow, .button.yellow {
         @include media-query($on-palm) {
             width: 100%;
         }
+        h2 {
+            margin-bottom: 10px;
+        }
         p {
             font-weight: normal;
-            margin-top: 10px;
-            @include media-query($on-laptop) {
-                display: none;
-            }
+            margin: 0;
             @include media-query($on-palm) {
                 display: block;
                 width: 100%;
