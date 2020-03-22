@@ -2,7 +2,7 @@
 layout: page
 title: Writings
 permalink: "/articles/"
-description: My articles
+description: I’m a designer with over 10 years of experience who solves challenges through design thinking and these are my thoughts on various subjects.
 
 ---
 <div>

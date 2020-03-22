@@ -2,7 +2,7 @@
 layout: page
 title: About me
 permalink: "/about/"
-description: A brief description about Carlos Sousa and his professional path.
+description: I’m a designer with over 10 years of experience who solves challenges through design thinking.
 
 ---
 <div class="profile-picture"> <img src="/assets/images/profile.jpg" alt="Carlos portrait"> </div> Hi. I’m Carlos but many people call me Kiko, a nickname given by my parents when I was just a few months old. I was born in Madeira Island, Portugal, Google it if you don’t know where it is, it’s a beautiful place.
