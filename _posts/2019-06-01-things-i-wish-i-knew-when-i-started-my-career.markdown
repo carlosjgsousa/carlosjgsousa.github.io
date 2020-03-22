@@ -3,6 +3,7 @@ layout: post
 title:  "Things I wish I knew when I started my career"
 categories: blog
 excerpt: "If I ever had a coach or a mentor, these would be the things I wish I knew. And these are the things I teach now. "
+description: If I ever had a coach or a mentor, these would be the things I wish I knew. And these are the things I teach now.
 ---
 <p><img src="/assets/images/design-shortcut.png" alt=""></p>
 <p>I often think about what would my career be if I had some coaching or mentorship in the first years as a designer. Going to college we expect to be somewhat prepared for the real world but for many people, myself included, that's not the case.

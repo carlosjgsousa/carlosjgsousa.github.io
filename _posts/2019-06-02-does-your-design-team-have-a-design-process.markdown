@@ -3,6 +3,7 @@ layout: post
 title:  "Does your design team have a design process?"
 categories: blog
 excerpt: "Over the years the word design has morphed into many things but its underlying meaning is still the same, function over form."
+description: Over the years the word design has morphed into many things but its underlying meaning is still the same, function over form.
 ---
 <p><img src="/assets/images/design-process.jpeg" alt="Design process"></p>
 <p>When I started my career, design meant something more ‘artistic’, it was either graphic design or interior design, there was no such thing as UX, UI or product, at least not in the sense that we mean it today.</p>
