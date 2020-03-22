@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Becoming a Design Manager – Carlos Sousa Product Designer
+title: Becoming a Design Manager
 categories: blog
 excerpt: Over the last 2 years or so I’ve had the privilege and huge responsibility to manage a team of 5 designers. This is the story of my journey.
 description: Over the last 2 years or so I’ve had the privilege and huge responsibility to manage a team of 5 designers. This is the story of my journey.

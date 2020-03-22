@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "Things I wish I knew when I started my career – Carlos Sousa Product Designer"
+title:  Things I wish I knew when I started my career
 categories: blog
-excerpt: "If I ever had a coach or a mentor, these would be the things I wish I knew. And these are the things I teach now. "
+excerpt: If I ever had a coach or a mentor, these would be the things I wish I knew. And these are the things I teach now.
 description: If I ever had a coach or a mentor, these would be the things I wish I knew. And these are the things I teach now.
 ---
 <p><img src="/assets/images/design-shortcut.png" alt=""></p>
