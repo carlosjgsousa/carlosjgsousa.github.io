@@ -2,8 +2,11 @@
 layout: post
 title: Becoming a Design Manager
 categories: blog
-excerpt: Over the last 2 years or so I’ve had the privilege and huge responsibility to manage a team of 5 designers. This is the story of my journey.
-description: Over the last 2 years or so I’ve had the privilege and huge responsibility to manage a team of 5 designers. This is the story of my journey.
+excerpt: Over the last 2 years or so I’ve had the privilege and huge responsibility
+  to manage a team of 5 designers. This is the story of my journey.
+description: Over the last 2 years or so I’ve had the privilege and huge responsibility
+  to manage a team of 5 designers. This is the story of my journey.
+
 ---
 Over the last 2 years or so I’ve had the privilege and huge responsibility to manage a team of 5 designers. My transition into it was probably similar to most of the design managers out there. I was an IC (individual contributor) in a product team, working closely with the product owner, developers and content editors to bring the best and most viable ideas to life. I was also reporting to the product owner, which was absolutely fine but if I wanted to grow my career I had to step up. The most natural thing for me was to go up and in many organisations, up means management.
 
@@ -19,7 +22,7 @@ Most of the stuff I found out in these meetings was simple stuff, like tools we 
 
 ## 2. 1:1s
 
-Team meetings are great but we know how people dynamics are, you always have a loud voice in a group and introverted people will just shut down and not participate. 1:1s are probably the best way to know each team member and their opinions, not only about work but what motivates them as individuals as well. I had practically no experience in this apart from my own 1:1s with my own manager. I didn’t know what a good chat looked like. Fortunately, there are extraordinary books out there and I cannot recommend them more, Radical Candor and The Making of a Manager, please read them.
+Team meetings are great but we know how people dynamics are, you always have a loud voice in a group and introverted people will just shut down and not participate. 1:1s are probably the best way to know each team member and their opinions, not only about work but what motivates them as individuals too. I had practically no experience in this apart from my own 1:1s with my manager. I had no idea about what a good or a bad 1:1 looked like. Fortunately, there are extraordinary books out there and I cannot recommend them more, Radical Candor and The Making of a Manager, please read them.
 
 Once I read these, things were clear to me, just let them talk and your job is to listen. As a manager, these sessions are about them and their career, not about what you want them to do. One thing that I found very useful in these 1:1s was asking them questions about what they were thinking on the subject they were just talking, all people need to do is reflect, most of the time they know what to do. This doesn’t mean you can’t give your opinion, just don’t make these conversations about you.
 
