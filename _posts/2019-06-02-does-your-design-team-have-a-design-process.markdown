@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Does your design team have a design process?
-categories: blog
+categories: articles
 excerpt: Over the years the word design has morphed into many things but its underlying meaning is still the same, function over form.
 description: Over the years the word design has morphed into many things but its underlying meaning is still the same, function over form.
 ---

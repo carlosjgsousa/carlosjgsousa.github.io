@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Designer’s Expectations — Is it all on us?
-categories: blog
+categories: articles
 excerpt: Lets just hope that most of us are ready for what will be expected.
 description: Lets just hope that most of us are ready for what will be expected.
 
