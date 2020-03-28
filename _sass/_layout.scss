@@ -203,7 +203,6 @@ nav {
      width: 100%;
   }
   @include media-query($on-palm) {
-     font-size: 28px;
      line-height: initial;
   }
 }
