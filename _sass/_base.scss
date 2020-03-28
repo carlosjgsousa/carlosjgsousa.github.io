@@ -135,15 +135,28 @@ a {
 /**
  * Blockquotes
  */
-blockquote {
-    padding-left: $spacing-unit / 2;
-    font-size: 18px;
-    letter-spacing: -1px;
-    font-style: italic;
 
-    > :last-child {
-        margin-bottom: 0;
-    }
+blockquote {
+  font-weight: normal;
+  line-height: 1.3em;
+  font-size: 20px;
+  font-style: italic;
+  letter-spacing: normal;
+  padding: 0 40px;
+  position: relative;
+  margin: 2em 0;
+  @include media-query($on-laptop) {
+      font-size: 18px;
+  }
+}
+blockquote:before {
+  position: absolute;
+  content: "“";
+  font-family: Georgia;
+  font-size: 5rem;
+  opacity: 0.2;
+  left: 0px;
+  top: 10px;
 }
 
 

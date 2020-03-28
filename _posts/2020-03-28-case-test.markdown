@@ -1,0 +1,12 @@
+---
+layout: case
+title: Title case study
+categories: case
+excerpt: Testing case excerpt
+description:  Testing case desc
+---
+<h4>
+Faculty Platform - formerly SherlockML, from ASI Data Science - is a tool built by data scientists for data scientists, which lets you explore your data, run experiments, and develop and deploy models all in one place.
+</h4>
+<h2>My Role</h2>
+<p class="flush">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod quos assumenda temporibus architecto, rem blanditiis unde nemo possimus est commodi amet culpa enim quo eos autem accusamus sequi laborum ad hic obcaecati? Deserunt earum quibusdam eligendi totam fugiat aliquid, sunt ex qui sit adipisci odit voluptates dolores necessitatibus temporibus laborum.</p>

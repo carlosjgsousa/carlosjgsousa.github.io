@@ -465,26 +465,8 @@ input[type="submit"].yellow, .button.yellow {
     @include media-query($on-palm) {
         width: 100%;
     }
-
-    blockquote {
-      font-weight: normal;
-      line-height: 1.3em;
-      font-size: 20px;
-      letter-spacing: normal;
-      padding: 0 40px;
-      position: relative;
-      @include media-query($on-laptop) {
-          font-size: 18px;
-      }
-    }
-    blockquote:before {
-      position: absolute;
-      content: "“";
-      font-family: Georgia;
-      font-size: 5rem;
-      opacity: 0.2;
-      left: 0px;
-      top: 10px;
+    h2,h3,h4,p {
+        margin-top: 1.5em;
     }
     .post-content-img {
         margin-top: 50px;
