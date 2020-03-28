@@ -137,26 +137,33 @@ a {
  */
 
 blockquote {
-  font-weight: normal;
-  line-height: 1.3em;
-  font-size: 20px;
-  font-style: italic;
-  letter-spacing: normal;
-  padding: 0 40px;
-  position: relative;
-  margin: 2em 0;
-  @include media-query($on-laptop) {
-      font-size: 18px;
-  }
+    font-size: 1.5rem;
+    max-width: 650px;
+    margin: 0 auto;
+    padding: 1.5rem 0 1.5rem 1.5rem;
+    @include media-query($on-laptop) {
+      font-size: 1.2rem;
+    }
 }
 blockquote:before {
-  position: absolute;
-  content: "“";
-  font-family: Georgia;
-  font-size: 5rem;
-  opacity: 0.2;
-  left: 0px;
-  top: 10px;
+    color: $accent-color;
+    display: inline-block;
+    content: "“";
+    position: absolute;
+    font: 70px "Georgia", serif;
+    margin-left: -40px;
+    margin-top: -10px;
+    text-indent: 0;
+}
+blockquote:after {
+    color: $accent-color;
+    display: inline-block;
+    content: "”";
+    position: absolute;
+    font: 70px "Georgia", serif;
+    margin-left: 10px;
+    margin-top: -10px;
+    text-indent: 0;
 }
 
 

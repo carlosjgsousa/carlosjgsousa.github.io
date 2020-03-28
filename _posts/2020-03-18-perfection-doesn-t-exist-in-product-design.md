@@ -13,14 +13,14 @@ The digital industry does a good job at promoting the new ways of working and th
 
 Let’s look at some of the most successful products we have today, I think most of you reading this will agree that some of these are design references today.
 
-![/uploads/facebook-2.jpg](https://app.forestry.io/sites/02d0qhfgagdrqa/body-media//uploads/facebook-2.jpg "Facebook before and after")  
-<small>_Facebook before and after_</small>
+![/uploads/facebook-2.jpg](/uploads/facebook-2.jpg "Facebook before and after"){:class="responsive-img"}
+<small>(_Facebook before and after_)</small>
 
-![/uploads/spotify.jpg](https://app.forestry.io/sites/02d0qhfgagdrqa/body-media//uploads/spotify.jpg "Spotify before and after")  
-<small>_Spotify before and after_</small>
+![/uploads/spotify.jpg](/uploads/spotify.jpg "Spotify before and after"){:class="responsive-img"}
+<small>(_Spotify before and after_)</small>
 
-![/uploads/twitter.jpg](https://app.forestry.io/sites/02d0qhfgagdrqa/body-media//uploads/twitter.jpg "Twitter before and after")  
-<small>_Twitter before and after_</small>
+![/uploads/twitter.jpg](/uploads/twitter.jpg "Twitter before and after"){:class="responsive-img"}
+<small>(_Twitter before and after_)</small>
 
 Probably most of us don’t remember these products like that at all, because we tend to focus too much on the end result. Our mindset of what good product design is needs to mature and we need to focus on how we get there and not so much on how it looks.
 

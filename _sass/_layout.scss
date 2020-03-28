@@ -458,7 +458,6 @@ input[type="submit"].yellow, .button.yellow {
     margin-bottom: $spacing-unit;
 }
 
-
 .post-content {
     margin-bottom: $spacing-unit;
     width: 90%;
@@ -468,25 +467,38 @@ input[type="submit"].yellow, .button.yellow {
     h2,h3,h4,p {
         margin-top: 1.5em;
     }
-    .post-content-img {
-        margin-top: 50px;
-            img {
-                display: block;
-                max-width: 90%;
-                margin: 0 auto;
-                @media-query($on-laptop) {
-                    max-width: 100%;
-                }
-            }
-            .post-content-img-caption {
-                font-size: 13px;
-                font-weight: normal;
-                text-align: center;
-                color: lighten($text-color, 40%);
-            }
+    .highlight {
+        color: $accent-color;
+        font-size: 1.15em;
+        line-height: 1.5em;
+        border-left: 5px solid $accent-color;
+        background: #f9f9fc;
+        padding: 30px;
     }
-    .post-content-img + .post-content-img  {
-        margin: 50px auto;
+    .case-intro {
+        display: flex;
+        @include media-query($on-palm) {
+            display: block;
+        }
+        .case-intro h3 {
+            width: 70%;
+            margin-right: 30px;
+            @include media-query($on-palm) {
+                width: inherit;
+                margin-right: 0;
+            }
+        }
+        .case-tools ul {
+            padding: 0;
+            margin-left: 20px;
+        }
+
+    }
+    .responsive-img {
+        display: block;
+        width: 100%;
+        height: auto;
+        margin: 5px 0;
     }
 }
 
