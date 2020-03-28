@@ -10,7 +10,7 @@ layout: default
     </div>
     <div class="selected-article spacer reveal">
       <h3 class="title-tag">Articles written</h3>
-      {% for post in site.posts limit:3 %}
+      {% for post in site.categories.articles limit:3 %}
               <article class="selected-article--card">
                 <div class="selected-article--content">
                   <h2><a class="color-change" href="{{ post.url }}">{{ post.title }}</a></h2>

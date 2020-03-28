@@ -6,7 +6,7 @@ description: I’m a designer with over 10 years of experience who solves challe
 
 ---
 <div>
-{% for post in site.posts limit:20 %}
+{% for post in site.categories.articles limit:20 %}
         <article class="selected-article--card">
           <div class="selected-article--content">
             <span class="date"><small>{{ post.date | date: "%-d %B %Y"}}</small></span>
