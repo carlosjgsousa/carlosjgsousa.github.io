@@ -202,9 +202,6 @@ nav {
      margin-top: 20px;
      width: 100%;
   }
-  @include media-query($on-palm) {
-     line-height: initial;
-  }
 }
 
 .profile h1 a {
