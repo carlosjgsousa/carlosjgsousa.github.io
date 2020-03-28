@@ -230,10 +230,10 @@ nav {
     display: block;
   }
   @include media-query($on-palm) {
-    width: 200px;
-    height: 200px;
+    width: 100%;
+    height: auto;
     float: none;
-    margin: 0;
+    margin: 0 0 20px 0;
   }
 }
 
