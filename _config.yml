@@ -24,3 +24,6 @@ include: ['images']
 plugins:
   - jekyll-sitemap
   - jekyll-minifier
+
+exclude:
+  - .jekyll-cache
