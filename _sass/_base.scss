@@ -98,15 +98,22 @@ h1 {
   font-size: 2.441em;
 }
 
-h2 {
-    font-size: 1.953em;
-}
+h2 {font-size: 1.953em;}
 
 h3 {font-size: 1.563em;}
 
 h4 {font-size: 1.25em;}
 
 small, .text_small {font-size: 0.833em;}
+
+@include media-query($on-palm) {
+
+    h1 {font-size: 2em;}
+    h2 {font-size: 1.7em;}
+    h3 {font-size: 1.563em;}
+    h4 {font-size: 1.25em;}
+
+}
 
 /**
  * Links

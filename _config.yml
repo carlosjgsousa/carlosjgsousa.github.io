@@ -21,6 +21,8 @@ permalink: /:categories/:title:output_ext
 markdown: kramdown
 include: ['images']
 
+host: 0.0.0.0
+
 plugins:
   - jekyll-sitemap
   - jekyll-minifier

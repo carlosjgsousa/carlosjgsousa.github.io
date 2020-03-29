@@ -69,7 +69,7 @@ nav {
 .social-media-list li {
   list-style: none;
   margin-bottom: 20px;
-  font-size: 12px;
+  font-size: 14px;
   @include media-query($on-palm) {
       margin-bottom: 0;
       text-align: center;
@@ -113,12 +113,12 @@ nav {
 /**
  * Page content
  */
- .post-content ul, .post-content ol {
+.post-content ul, .post-content ol {
    font-weight: normal;
    li {
      margin: 10px 0;
    }
- }
+}
 .page-content {
     padding: $spacing-unit 0;
 }
@@ -137,6 +137,11 @@ nav {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    @include media-query($on-palm) {
+        width: 100%;
+        padding: 0;
+        margin-bottom: 40px;
+    }
 
 
     > li {
@@ -230,10 +235,10 @@ nav {
     display: block;
   }
   @include media-query($on-palm) {
-    width: 200px;
-    height: 200px;
+    width: 250px;
+    height: 250px;
     float: none;
-    margin: 0 0 20px 0;
+    margin: 0 0 50px 0;
   }
 }
 
