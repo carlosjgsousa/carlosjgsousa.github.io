@@ -5,7 +5,7 @@ categories: articles
 excerpt: Lets just hope that most of us are ready for what will be expected.
 description: Lets just hope that most of us are ready for what will be expected.
 redirect_from:
-/blog/designers-expectations-is-it-all-on-us.html
+- /blog/designers-expectations-is-it-all-on-us.html
 ---
 <img src="/assets/images/designers-expectations.png" alt="Design expectations">
 
