@@ -6,7 +6,8 @@ excerpt: Over the last 2 years or so I’ve had the privilege and huge responsib
   to manage a team of 5 designers. This is the story of my journey.
 description: Over the last 2 years or so I’ve had the privilege and huge responsibility
   to manage a team of 5 designers. This is the story of my journey.
-
+redirect_from:
+    - /blog/becoming-a-design-manager.html
 ---
 Over the last 2 years or so I’ve had the privilege and huge responsibility to manage a team of 5 designers. My transition into it was probably similar to most of the design managers out there. I was an IC (individual contributor) in a product team, working closely with the product owner, developers and content editors to bring the best and most viable ideas to life. I was also reporting to the product owner, which was absolutely fine but if I wanted to grow my career I had to step up. The most natural thing for me was to go up and in many organisations, up means management.
 

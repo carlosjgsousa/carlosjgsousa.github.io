@@ -26,6 +26,7 @@ host: 0.0.0.0
 plugins:
   - jekyll-sitemap
   - jekyll-minifier
+  - jekyll-redirect-from
 
 exclude:
   - .jekyll-cache
