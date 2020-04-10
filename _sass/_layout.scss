@@ -514,3 +514,71 @@ input[type="submit"].yellow, .button.yellow {
 .share-buttons > .facebook > svg {height: 18px;}
 .share-buttons > .twitter > svg {height: 20px;}
 .share-buttons > .linkedin > svg {height: 19px;}
+
+
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: $text-color;
+        color: $background-color;
+    }
+    .title-tag {
+        color: #CCCCCC;
+    }
+    .site-title {
+        color: #FFFFFF;
+        &,
+        &:hover, &:visited {
+          color: #FFFFFF;
+          box-shadow: none;
+        }
+    }
+    .color-change.red {
+      color: $color-red--dark;
+    }
+    .color-change.blue {
+      color: $color-blue--dark;
+    }
+
+    .color-change.green {
+      color:$color-green--dark;
+    }
+
+    .color-change.yellow {
+      color: $color-yellow--dark;
+    }
+    input[type="submit"].red, .button.red {
+      color: $color-red--dark;
+      border: 2px solid $color-red--dark;
+      &:hover {
+          background: $color-red--dark;
+          color: #222222;
+      }
+    }
+    input[type="submit"].blue, .button.blue {
+      color: $color-blue--dark;
+      border: 2px solid $color-blue--dark;
+      &:hover {
+          background: $color-blue--dark;
+          color: #222222;
+      }
+    }
+    input[type="submit"].green, .button.green {
+      color: $color-green--dark;
+      border: 2px solid $color-green--dark;
+      &:hover {
+          background: $color-green--dark;
+          color: #222222;
+      }
+    }
+    input[type="submit"].yellow, .button.yellow {
+      color: $color-yellow--dark;
+      border: 2px solid $color-yellow--dark;
+      &:hover {
+          background: $color-yellow--dark;
+          color: #222222;
+      }
+    }
+    .share-buttons > div > svg {
+        fill: #FFFFFF;
+    }
+}

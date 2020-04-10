@@ -34,6 +34,11 @@ $color-blue:      #0074D9;
 $color-green:     #2ECC40;
 $color-yellow:    #FF851B;
 
+$color-red--dark:       #FF867F;
+$color-blue--dark:      #5CA6E6;
+$color-green--dark:     #8DE396;
+$color-yellow--dark:    #FFB16D;
+
 .color-change.red {
   color: $color-red;
 }
@@ -48,7 +53,6 @@ $color-yellow:    #FF851B;
 .color-change.yellow {
   color: $color-yellow;
 }
-
 
 // Use media queries like this:
 // @include media-query($on-palm) {
