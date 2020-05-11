@@ -113,6 +113,10 @@ nav {
 /**
  * Page content
  */
+
+.page-title {
+  margin-top: 20px;
+ }
 .post-content ul, .post-content ol {
    font-weight: normal;
    li {
@@ -302,6 +306,7 @@ nav {
     margin-bottom: 40px;
     h3 {
         margin-bottom: 10px;
+        font-size: 1.953em;
     }
     .date {
         font-size: 16px;
@@ -368,8 +373,19 @@ input[type="submit"], .button {
     min-width: 100px;
     font-weight: bold;
     line-height: 1em;
+    color: $brand-color;
+    border: 2px solid $brand-color;
+      @include media-query($dark) {
+        color: $brand-color-dark;
+        border: 2px solid $brand-color-dark;
+      }
     &:hover {
-        box-shadow: 0 2px 5px 0px rgba(0,0,0,.2);
+        @include media-query($dark) {
+          box-shadow: 0 2px 5px 0px rgba(0,0,0,.2);
+          background: $brand-color-dark;
+        }
+        background: $brand-color;
+        color: #FFFFFF;
     }
     &:active {
         transform: scale(.9);
@@ -384,46 +400,9 @@ input[type="submit"], .button {
         display: block;
     }
 }
-input[type="submit"].red, .button.red {
-  color: $color-red;
-  border: 2px solid $color-red;
-  &:hover {
-      background: $color-red;
-      color: #FFFFFF;
-  }
-}
-input[type="submit"].blue, .button.blue {
-  color: $color-blue;
-  border: 2px solid $color-blue;
-  &:hover {
-      background: $color-blue;
-      color: #FFFFFF;
-  }
-}
-input[type="submit"].green, .button.green {
-  color: $color-green;
-  border: 2px solid $color-green;
-  &:hover {
-      background: $color-green;
-      color: #FFFFFF;
-  }
-}
-input[type="submit"].yellow, .button.yellow {
-  color: $color-yellow;
-  border: 2px solid $color-yellow;
-  &:hover {
-      background: $color-yellow;
-      color: #FFFFFF;
-  }
-}
-
-.selected-article h2 {
-  transition: all .2s ease-in-out;
-}
 
 .selected-article--card {
-    display: flex;
-    justify-content: space-around;
+    flex: 0 50%;
     @include media-query($on-palm) {
         display: block;
     }
@@ -517,6 +496,8 @@ input[type="submit"].yellow, .button.yellow {
 
 
 @media (prefers-color-scheme: dark) {
+
+  // #A1B4C4
     body {
         background-color: $text-color;
         color: $background-color;
@@ -532,53 +513,8 @@ input[type="submit"].yellow, .button.yellow {
           box-shadow: none;
         }
     }
-    .color-change.red {
-      color: $color-red--dark;
-    }
-    .color-change.blue {
-      color: $color-blue--dark;
-    }
-
-    .color-change.green {
-      color:$color-green--dark;
-    }
-
-    .color-change.yellow {
-      color: $color-yellow--dark;
-    }
-    input[type="submit"].red, .button.red {
-      color: $color-red--dark;
-      border: 2px solid $color-red--dark;
-      &:hover {
-          background: $color-red--dark;
-          color: #222222;
-      }
-    }
-    input[type="submit"].blue, .button.blue {
-      color: $color-blue--dark;
-      border: 2px solid $color-blue--dark;
-      &:hover {
-          background: $color-blue--dark;
-          color: #222222;
-      }
-    }
-    input[type="submit"].green, .button.green {
-      color: $color-green--dark;
-      border: 2px solid $color-green--dark;
-      &:hover {
-          background: $color-green--dark;
-          color: #222222;
-      }
-    }
-    input[type="submit"].yellow, .button.yellow {
-      color: $color-yellow--dark;
-      border: 2px solid $color-yellow--dark;
-      &:hover {
-          background: $color-yellow--dark;
-          color: #222222;
-      }
-    }
     .share-buttons > div > svg {
         fill: #FFFFFF;
     }
+
 }

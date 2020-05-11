@@ -17,4 +17,4 @@ Personality wise, Belbin team role says I’m a Shaper and Myers–Briggs Type I
 
 If you would like to find out a bit more about my career path, check my LinkedIn or contact me using the form below.
 
-<a class="button color-change" href="https://www.linkedin.com/in/carlosjgsousa">Check LinkedIn</a>
+<a class="button  " href="https://www.linkedin.com/in/carlosjgsousa">Check LinkedIn</a>

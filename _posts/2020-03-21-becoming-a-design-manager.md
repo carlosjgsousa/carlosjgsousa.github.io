@@ -35,7 +35,7 @@ My short term vision was to have a solid team, like the A-Team, each has its str
 
 ## 4. Having a strategy and a roadmap
 
-Having a vision gives you a direction, having a strategy and a roadmap gives you a way to get there. Your strategy needs to be inspiring, making sure everything step you take gets you and your team closer to the end game. I did my strategy using [OKRs framework](https://rework.withgoogle.com/guides/set-goals-with-okrs/steps/introduction/){: .color-change} these items needed to be actionable and measurable, this is important to define the success of each initiative, here’s just a few of them:
+Having a vision gives you a direction, having a strategy and a roadmap gives you a way to get there. Your strategy needs to be inspiring, making sure everything step you take gets you and your team closer to the end game. I did my strategy using [OKRs framework](https://rework.withgoogle.com/guides/set-goals-with-okrs/steps/introduction/){: . } these items needed to be actionable and measurable, this is important to define the success of each initiative, here’s just a few of them:
 
 1. Deliver a design UI roadmap (To tackle that consistency issue we were having);
    * UI components are done and ready for dev;
@@ -53,7 +53,7 @@ I also assigned a designer as a lead for each initiative. This guaranteed I had 
 
 One of the things I found about reporting to a product owner was, my career development was in the hands of someone who, while extremely capable and amazing as a product owner, wasn’t very proficient in the design topic. So when I wanted to know how I could be better within my area of expertise I couldn’t seek my manager’s advice.
 
-This got me thinking and as a designer, I did my research, collected a few ladders from other companies and then adjusted to the company’s culture. The result was something clear and transparent, under a few values and traits, everyone knew where they were and what they needed to do to be better. Some people will be motivated by money, some by career progression, my job was to facilitate the latter. If you’re curious about this, check the [ladder here](https://docs.google.com/spreadsheets/d/1yWiwSLkJ_NZqnxyzjkGAs9c7hqikUyA4Snt3b8teVvc/edit?usp=sharing){: .color-change}.
+This got me thinking and as a designer, I did my research, collected a few ladders from other companies and then adjusted to the company’s culture. The result was something clear and transparent, under a few values and traits, everyone knew where they were and what they needed to do to be better. Some people will be motivated by money, some by career progression, my job was to facilitate the latter. If you’re curious about this, check the [ladder here](https://docs.google.com/spreadsheets/d/1yWiwSLkJ_NZqnxyzjkGAs9c7hqikUyA4Snt3b8teVvc/edit?usp=sharing){: . }.
 
 Doing any or all of these is not the fail-proof recipe for becoming a manager, or a good/bad. In my opinion, the ultimate signal you’re doing a great job is your team’s success without negatively affecting anyone else in the business, it sounds cliché but it’s true.
 
@@ -64,4 +64,4 @@ In these last 2 years in my people management journey, there are two big lessons
 
 I probably boiled down a lot but hopefully, you’ll be able to take away some insights and apply them, whether you’re a manager already or thinking about becoming one. Oh and please read those two books, they will definitely give you way more pointers that this article ever will.
 
-[Radical Candor](https://www.radicalcandor.com/){: .color-change} & [The Making of a Manager](https://juliezhuo.com/book/manager.html){: .color-change}
+[Radical Candor](https://www.radicalcandor.com/){: . } & [The Making of a Manager](https://juliezhuo.com/book/manager.html){: . }

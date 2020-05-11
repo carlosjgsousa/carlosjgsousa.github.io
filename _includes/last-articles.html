@@ -5,7 +5,7 @@
       {% if forloop.index < 3 or found %}
       <article>
           <span class="date"><small>{{ post.date | date: "%-d %B %Y"}}</small></span>
-          <h3><a class="color-change" href="{{ post.url }}">{{ post.title }}</a></h3>
+          <h3><a class=" " href="{{ post.url }}">{{ post.title }}</a></h3>
           <p>{{ post.excerpt }}</p>
       </article>
       {% endif %}

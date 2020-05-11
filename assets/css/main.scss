@@ -6,7 +6,7 @@
 
 
 // Our variables
-$base-font-family: "Muli", sans-serif;
+$base-font-family: "Karla", sans-serif;
 $base-font-size:   18px;
 $base-font-weight: 400;
 $small-font-size:  $base-font-size * 0.875;
@@ -17,6 +17,7 @@ $spacing-unit:     30px;
 $text-color:       #222222;
 $background-color: #FFFFFF;
 $brand-color:      #2246D8;
+$brand-color-dark: #A7B6F1;
 $accent-color:     #222222;
 
 $brand-color-light: rgba($brand-color, .5);
@@ -29,30 +30,8 @@ $content-width:    1140px;
 $on-palm:          600px;
 $on-laptop:        800px;
 
-$color-red:       #FF3A3A;
-$color-blue:      #0074D9;
-$color-green:     #28A526;
-$color-yellow:    #FF8914;
-
-$color-red--dark:       #FF867F;
-$color-blue--dark:      #5CA6E6;
-$color-green--dark:     #8DE396;
-$color-yellow--dark:    #FFB16D;
-
-.color-change.red {
-  color: $color-red;
-}
-.color-change.blue {
-  color: $color-blue;
-}
-
-.color-change.green {
-  color:$color-green;
-}
-
-.color-change.yellow {
-  color: $color-yellow;
-}
+$dark:             dark;
+$light:            light;
 
 // Use media queries like this:
 // @include media-query($on-palm) {
@@ -63,6 +42,12 @@ $color-yellow--dark:    #FFB16D;
 // }
 @mixin media-query($device) {
     @media screen and (max-width: $device) {
+        @content;
+    }
+}
+
+@mixin media-query($mode) {
+    @media (prefers-color-scheme: $mode) {
         @content;
     }
 }

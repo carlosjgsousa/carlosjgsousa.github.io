@@ -123,9 +123,14 @@ a {
     text-decoration: none;
     transition: all .3s ease-in-out;
     font-weight: 700;
-
+    @include media-query($dark) {
+      color: $brand-color-dark;
+    }
     &:visited {
         color: $brand-color;
+        @include media-query($dark) {
+          color: $brand-color-dark;
+        }
     }
 
     &:hover {
