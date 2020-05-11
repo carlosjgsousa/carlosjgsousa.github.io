@@ -9,8 +9,8 @@ dl, dd, ol, ul, figure {
 }
 
 ::selection {
-  background: #DDD;
-  color: #666;
+  background: $mid-color;
+  color: $light-color;
 }
 
 /**
@@ -19,8 +19,8 @@ dl, dd, ol, ul, figure {
 body {
     font: $base-font-weight #{$base-font-size}/#{$base-line-height} $base-font-family;
     font-family: $base-font-family;
-    color: $text-color;
-    background-color: $background-color;
+    color: $dark-color;
+    background-color: $light-color;
     -webkit-text-size-adjust: 100%;
     -webkit-font-feature-settings: "kern" 1;
     -moz-font-feature-settings: "kern" 1;
@@ -32,6 +32,10 @@ body {
     -moz-font-smoothing: antialiased;
     -o-font-smoothing: antialiased;
     font-smoothing: antialiased;
+    @include dark-mode {
+      background-color: $dark-color;
+      color: $light-color;
+    }
 }
 
 
@@ -123,12 +127,12 @@ a {
     text-decoration: none;
     transition: all .3s ease-in-out;
     font-weight: 700;
-    @include media-query($dark) {
+    @include dark-mode {
       color: $brand-color-dark;
     }
     &:visited {
         color: $brand-color;
-        @include media-query($dark) {
+        @include dark-mode {
           color: $brand-color-dark;
         }
     }
@@ -155,7 +159,7 @@ blockquote {
     }
 }
 blockquote:before {
-    color: $accent-color;
+    color: $dark-color;
     display: inline-block;
     content: "“";
     position: absolute;
@@ -165,7 +169,7 @@ blockquote:before {
     text-indent: 0;
 }
 blockquote:after {
-    color: $accent-color;
+    color: $dark-color;
     display: inline-block;
     content: "”";
     position: absolute;
@@ -184,7 +188,7 @@ pre,
 code {
     font-size: 15px;
     border-radius: 3px;
-    background-color: #eef;
+    background-color: $mid-color;
 }
 
 code {

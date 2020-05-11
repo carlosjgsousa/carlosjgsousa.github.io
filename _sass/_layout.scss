@@ -6,14 +6,21 @@
     font-size: 24px;
     line-height: 1.5rem;
     top: 50px;
-    color: $text-color;
+    color: $dark-color;
     display: inline-block;
     position: fixed;
     font-weight: 700;
+    @include dark-mode {
+      color: $light-color;
+    }
     &,
     &:hover, &:visited {
-      color: $text-color;
+      color: $dark-color;
       box-shadow: none;
+      @include dark-mode {
+        color: $light-color;
+        box-shadow: none;
+      }
     }
     @include media-query($on-palm) {
         position: relative;
@@ -247,7 +254,10 @@ nav {
 
 .title-tag {
   font-size: 16px;
-  color: $text-color;
+  color: $dark-color;
+  @include dark-mode {
+    color: $mid-color;
+  }
 }
 .current p {
   font-size: 28px;
@@ -310,7 +320,7 @@ nav {
     }
     .date {
         font-size: 16px;
-        color: #999;
+        color: $mid-color;
     }
 }
 
@@ -335,7 +345,7 @@ nav {
           textarea {
               display: block;
               font-size: 16px;
-              border: 1px solid #cccccc;
+              border: 1px solid $mid-color;
               padding: 15px;
               border-radius: 50px;
               outline: none;
@@ -375,17 +385,17 @@ input[type="submit"], .button {
     line-height: 1em;
     color: $brand-color;
     border: 2px solid $brand-color;
-      @include media-query($dark) {
+      @include dark-mode {
         color: $brand-color-dark;
         border: 2px solid $brand-color-dark;
       }
     &:hover {
-        @include media-query($dark) {
+        @include dark-mode {
           box-shadow: 0 2px 5px 0px rgba(0,0,0,.2);
           background: $brand-color-dark;
         }
         background: $brand-color;
-        color: #FFFFFF;
+        color: $light-color;
     }
     &:active {
         transform: scale(.9);
@@ -426,7 +436,7 @@ input[type="submit"], .button {
         }
         .date {
             font-size: 16px;
-            color: #999;
+            color: $mid-color;
         }
     }
 }
@@ -448,11 +458,11 @@ input[type="submit"], .button {
         margin-top: 1.5em;
     }
     .highlight {
-        color: $accent-color;
+        color: $dark-color;
         font-size: 1.15em;
         line-height: 1.5em;
-        border-left: 5px solid $accent-color;
-        background: #f9f9fc;
+        border-left: 5px solid $dark-color;
+        background: $light-color;
         padding: 30px;
     }
     .case-intro {
@@ -484,37 +494,17 @@ input[type="submit"], .button {
 
 .share-buttons {display: flex; font-weight: normal;}
 .share-buttons > div { margin-right: 10px; align-items: flex-start; border: 2px solid; border-radius: 50%; width: 40px; height: 40px; display: flex; align-items: center; justify-content: center; transition: all .2s linear;}
-.share-buttons > div > svg {height: 16px; fill: #333333;}
+.share-buttons > div > svg {
+  height: 16px; fill: $dark-color;
+  @include dark-mode {
+    fill: $light-color;
+  }
+}
 .share-buttons > div:hover {cursor: pointer;}
 .share-buttons > .facebook:hover { background: #3B5998; border: 2px solid #3B5998;}
 .share-buttons > .twitter:hover { background: #55ACEE; border: 2px solid #55ACEE;}
 .share-buttons > .linkedin:hover { background: #0077b5; border: 2px solid #0077b5;}
-.share-buttons > div:hover > svg {fill: #FFFFFF;}
+.share-buttons > div:hover > svg {fill: $light-color;}
 .share-buttons > .facebook > svg {height: 18px;}
 .share-buttons > .twitter > svg {height: 20px;}
 .share-buttons > .linkedin > svg {height: 19px;}
-
-
-@media (prefers-color-scheme: dark) {
-
-  // #A1B4C4
-    body {
-        background-color: $text-color;
-        color: $background-color;
-    }
-    .title-tag {
-        color: #CCCCCC;
-    }
-    .site-title {
-        color: #FFFFFF;
-        &,
-        &:hover, &:visited {
-          color: #FFFFFF;
-          box-shadow: none;
-        }
-    }
-    .share-buttons > div > svg {
-        fill: #FFFFFF;
-    }
-
-}

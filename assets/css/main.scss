@@ -14,42 +14,28 @@ $base-line-height: 1.5;
 
 $spacing-unit:     30px;
 
-$text-color:       #222222;
-$background-color: #FFFFFF;
+$dark-color:       #222222;
+$light-color:      #FFFFFF;
+$mid-color:        lighten($dark-color, 50%);
 $brand-color:      #2246D8;
 $brand-color-dark: #A7B6F1;
-$accent-color:     #222222;
-
-$brand-color-light: rgba($brand-color, .5);
-$text-color-light: rgba($text-color, .5);
 
 
 // Width of the content area
 $content-width:    1140px;
-
 $on-palm:          600px;
 $on-laptop:        800px;
 
-$dark:             dark;
-$light:            light;
-
-// Use media queries like this:
-// @include media-query($on-palm) {
-//     .wrapper {
-//         padding-right: $spacing-unit / 2;
-//         padding-left: $spacing-unit / 2;
-//     }
-// }
 @mixin media-query($device) {
     @media screen and (max-width: $device) {
         @content;
     }
 }
 
-@mixin media-query($mode) {
-    @media (prefers-color-scheme: $mode) {
-        @content;
-    }
+@mixin dark-mode {
+  @media (prefers-color-scheme: dark) {
+    @content;
+  }
 }
 
 @keyframes fadein {
@@ -57,7 +43,6 @@ $light:            light;
     to   { opacity: 1; }
 }
 
-// Import partials from `sass_dir` (defaults to `_sass`)
 @import
         "base",
         "layout"
