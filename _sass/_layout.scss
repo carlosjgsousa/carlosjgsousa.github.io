@@ -80,6 +80,7 @@ nav {
   @include media-query($on-palm) {
       margin-bottom: 0;
       text-align: center;
+      display: flex;
   }
 }
 .social-media-list li a:hover {
@@ -410,11 +411,22 @@ input[type="submit"], .button {
         display: block;
     }
 }
+.selected-articles {
+  display: flex;
+  flex-wrap: wrap;
+
+}
 
 .selected-article--card {
-    flex: 0 50%;
-    @include media-query($on-palm) {
+    flex: 0 45%;
+    box-sizing: border-box;
+    &:nth-child(odd) {
+      margin-right: 50px;
+    }
+    @include media-query($on-laptop) {
         display: block;
+        flex: 0 100%;
+        padding-right: 0;
     }
     .selected-article--content {
         width: 100%;
@@ -508,3 +520,65 @@ input[type="submit"], .button {
 .share-buttons > .facebook > svg {height: 18px;}
 .share-buttons > .twitter > svg {height: 20px;}
 .share-buttons > .linkedin > svg {height: 19px;}
+
+/*SWITCH*/
+.switch {
+  @include dark-mode {
+    display: none;
+  }
+  position: relative;
+  display: inline-block;
+  width: 30px;
+  height: 14px;
+  align-self: center;
+}
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: $dark-color;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 8px;
+  width: 8px;
+  left: 2px;
+  bottom: 3px;
+  background-color: $light-color;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+input:checked + .slider {
+  background-color: $light-color;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(16px);
+  -ms-transform: translateX(16px);
+  transform: translateX(16px);
+  background-color: $dark-color;
+}
+
+/* Rounded sliders */
+.slider {
+  border-radius: 30px;
+}
+
+.slider:before {
+  border-radius: 50%;
+}

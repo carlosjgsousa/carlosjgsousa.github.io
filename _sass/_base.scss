@@ -13,6 +13,45 @@ dl, dd, ol, ul, figure {
   color: $light-color;
 }
 
+//Dark Theme
+.theme-dark {
+  a {
+      color: $brand-color-dark;
+      &:visited {
+          color: $brand-color-dark;
+      }
+  }
+  body {
+      background-color: $dark-color;
+      color: $light-color;
+  }
+  .site-title {
+      color: $light-color;
+    &,
+    &:hover, &:visited {
+        color: $light-color;
+        box-shadow: none;
+    }
+  }
+  .title-tag {
+      color: $mid-color;
+  }
+  input[type="submit"], .button {
+    color: $brand-color-dark;
+    border: 2px solid $brand-color-dark;
+    &:hover {
+        box-shadow: 0 2px 5px 0px rgba(0,0,0,.2);
+        background: $brand-color-dark;
+    }
+  }
+  .share-buttons > div > svg {
+    fill: $light-color;
+  }
+  blockquote::before,blockquote::after {
+         color: $light-color;
+  }
+}
+
 /**
  * Basic styling
  */
@@ -131,10 +170,10 @@ a {
       color: $brand-color-dark;
     }
     &:visited {
-        color: $brand-color;
         @include dark-mode {
           color: $brand-color-dark;
         }
+        color: $brand-color;
     }
 
     &:hover {
@@ -160,6 +199,9 @@ blockquote {
 }
 blockquote:before {
     color: $dark-color;
+    @include dark-mode{
+      color: $light-color;
+    };
     display: inline-block;
     content: "“";
     position: absolute;
@@ -170,6 +212,9 @@ blockquote:before {
 }
 blockquote:after {
     color: $dark-color;
+    @include dark-mode{
+      color: $light-color;
+    };
     display: inline-block;
     content: "”";
     position: absolute;
@@ -232,7 +277,6 @@ pre {
  * Clearfix
  */
 %clearfix {
-
     &:after {
         content: "";
         display: table;

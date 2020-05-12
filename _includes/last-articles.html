@@ -4,7 +4,7 @@
     {% if post.url != page.url %}
       {% if forloop.index < 3 or found %}
       <article>
-          <span class="date"><small>{{ post.date | date: "%-d %B %Y"}}</small></span>
+          <span class="date">{{ post.date | date: "%-d %B %Y"}}</span>
           <h3><a class=" " href="{{ post.url }}">{{ post.title }}</a></h3>
           <p>{{ post.excerpt }}</p>
       </article>
