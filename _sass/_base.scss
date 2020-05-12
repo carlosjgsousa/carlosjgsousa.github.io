@@ -20,6 +20,11 @@ dl, dd, ol, ul, figure {
       &:visited {
           color: $brand-color-dark;
       }
+      &:before {
+          background-color: $brand-color-dark;
+          opacity: .3;
+      }
+
   }
   body {
       background-color: $dark-color;
@@ -32,6 +37,9 @@ dl, dd, ol, ul, figure {
         color: $light-color;
         box-shadow: none;
     }
+    &:before {
+      display: none;
+    }
   }
   .title-tag {
       color: $mid-color;
@@ -42,6 +50,13 @@ dl, dd, ol, ul, figure {
     &:hover {
         box-shadow: 0 2px 5px 0px rgba(0,0,0,.2);
         background: $brand-color-dark;
+        color: $light-color;
+    }
+    &::before {
+      display: none;
+    }
+    &:hover::before {
+      display: none
     }
   }
   .share-buttons > div > svg {
@@ -166,6 +181,7 @@ a {
     text-decoration: none;
     transition: all .3s ease-in-out;
     font-weight: 700;
+    position: relative;
     @include dark-mode {
       color: $brand-color-dark;
     }
@@ -178,11 +194,35 @@ a {
 
     &:hover {
         opacity: 1;
-        box-shadow: 0 2px 0 0;
+    }
+    &:before {
+        content: "";
+        position: absolute;
+        bottom: 15%;
+        width: 100%;
+        height: 45%;
+        z-index: -1;
+        background-color: $brand-color;
+        opacity: .2;
+        @include dark-mode {
+          background-color: $brand-color-dark;
+          opacity: .3;
+        }
+        transform: scaleY(0);
+        transform-origin: bottom;
+        transition: transform .2s ease-in-out;
+        will-change: transform;
+    }
+    &:hover::before {
+      transform: scaleY(1);
+      transform-origin: bottom;
     }
 }
 
-
+.post-list > li:hover .work-link::before {
+  transform: scaleY(1);
+  transform-origin: bottom;
+}
 
 /**
  * Blockquotes

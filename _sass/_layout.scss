@@ -22,6 +22,9 @@
         box-shadow: none;
       }
     }
+    &:before {
+      display: none;
+    }
     @include media-query($on-palm) {
         position: relative;
         top: auto;
@@ -400,6 +403,12 @@ input[type="submit"], .button {
     }
     &:active {
         transform: scale(.9);
+    }
+    &:before {
+      display: none;
+    }
+    &:hover:before {
+      display: none
     }
     @include media-query($on-palm) {
         width: 90%;
