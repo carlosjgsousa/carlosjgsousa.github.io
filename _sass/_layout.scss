@@ -421,17 +421,11 @@ input[type="submit"], .button {
     }
 }
 .selected-articles {
-  display: flex;
-  flex-wrap: wrap;
+  
 
 }
 
 .selected-article--card {
-    flex: 0 45%;
-    box-sizing: border-box;
-    &:nth-child(odd) {
-      margin-right: 50px;
-    }
     @include media-query($on-laptop) {
         display: block;
         flex: 0 100%;
@@ -446,6 +440,9 @@ input[type="submit"], .button {
         }
         h2 {
             margin-bottom: 10px;
+            a {
+
+            }
         }
         p {
             font-weight: normal;
