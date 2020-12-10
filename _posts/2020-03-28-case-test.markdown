@@ -3,7 +3,8 @@ layout: case
 title: Title case study
 categories: case
 excerpt: Testing case excerpt
-description:  Testing case desc
+description: Testing case desc
+
 ---
 <div class="case-intro">
     <h3 class="highlight">
