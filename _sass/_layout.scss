@@ -182,9 +182,17 @@ nav {
         &:hover {
             cursor: pointer;
         }
+
         &:hover img {
             transform: scale(1.02);
         }
+        &:hover img.no-link {
+            transform: scale(1);
+            cursor: auto;
+        }
+    }
+    .no-link:hover {
+      cursor: default;
     }
 }
 
@@ -421,7 +429,7 @@ input[type="submit"], .button {
     }
 }
 .selected-articles {
-  
+
 
 }
 
