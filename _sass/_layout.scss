@@ -272,6 +272,33 @@ nav {
     margin: 0 0 50px 0;
   }
 }
+.profile .gallery {
+  margin-top: 50px;
+  display: flex;
+  margin: 0;
+  list-style: none;
+  align-items: center;
+  justify-content: space-around;
+  li {
+    padding: 0 20px;
+    img {
+      border-radius: 30px;
+    }
+  }
+  @include media-query($on-palm) {
+    flex-flow: row wrap;
+    flex-basis: 100%;
+    margin-top: 50px;
+    li {
+      padding: 0;
+      margin-bottom: 30px;
+    }
+  }
+
+  li:first-child {
+    padding-left: 0;
+  }
+}
 
 .title-tag {
   font-size: 16px;
@@ -471,6 +498,12 @@ input[type="submit"], .button {
             color: $mid-color;
         }
     }
+}
+.reading {
+  img {
+    margin-bottom: 30px;
+    border-radius: 30px;
+  }
 }
 /**
  * Posts
