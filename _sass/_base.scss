@@ -148,7 +148,7 @@ li {
  */
 h1, h2, h3, h4, h5, h6 {
     line-height: 1.15;
-    font-weight: 700;
+    font-weight: 500;
 }
 
 h1 {
@@ -180,7 +180,6 @@ a {
     color: $brand-color;
     text-decoration: none;
     transition: all .3s ease-in-out;
-    font-weight: 700;
     position: relative;
     @include dark-mode {
       color: $brand-color-dark;
