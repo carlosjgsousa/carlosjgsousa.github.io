@@ -580,7 +580,7 @@ input[type="submit"], .button {
 .share-buttons > .linkedin > svg {height: 19px;}
 
 /*SWITCH*/
-.switch {
+li.switch {
   @include dark-mode {
     display: none;
   }
