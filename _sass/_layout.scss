@@ -582,10 +582,10 @@ input[type="submit"], .button {
 /*SWITCH*/
 .switch {
   @include dark-mode {
-    display: none;
+    display: block;
   }
   position: relative;
-  display: none;
+  display: block;
   width: 30px;
   height: 14px;
   align-self: center;
