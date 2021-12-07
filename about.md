@@ -14,9 +14,9 @@ Throughout the years I worked in many industries and projects as a designer and 
 
 Over Vodafone, I led a team of designers which challenged me a lot not only as a professional but as a person too. It was a very rewarding experience and I’m grateful to have been given this opportunity.
 
-Today I work as a design consultant over Nagarro. I help clients find a link between the business needs and their customers needs using a human centered approach, delivering validated value into the market as efficiently as possible.
+Today I work as a design consultant over Nagarro. I help clients find a link between the business needs and their customers needs using a human-centred approach, delivering validated value into the market as efficiently as possible.
 
-Personality wise, Belbin team role says I’m a Shaper, Myers–Briggs Type Indicator says I’m a ISTJ and WizardingWorld tells me I'm Gryffindor. What all this means is, I’m driven, curious, objective, I like facts and I am decisive. I’m a team player and someone who is there to give you a hand when you need. My emotions are not in front of mind but if anything people management is teaching me is how to deal with this.
+Personality-wise, Belbin team role says I’m a Shaper, Myers–Briggs Type Indicator says I’m an ISTJ and WizardingWorld tells me I’m Gryffindor. What all this means is, I’m driven, curious, objective, I like facts and I am decisive. I’m a team player and someone who is there to give you a hand when you need it. My emotions are not in front of my mind but if anything people management is teaching me is how to deal with this.
 
 If you would like to find out a bit more about my career path, check my <a class="" href="https://www.linkedin.com/in/carlosjgsousa">LinkedIn</a> or <a class=" " href="#contact">contact me </a> using the form below.
 
