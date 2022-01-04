@@ -347,11 +347,9 @@ nav {
         transition: all .2s ease-in-out;
         -webkit-backface-visibility: hidden;
     }
-    li:hover img {
-        box-shadow: rgba(0, 0, 0, 0.14902) 15px 20px 80px;
-    }
-    .work-title {
-
+    > p {
+      margin: 1.5rem 0 4rem 0;
+      font-size: 1.4rem;
     }
 }
 .selected-work .work-link {
