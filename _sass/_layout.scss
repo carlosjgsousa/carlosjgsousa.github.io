@@ -180,20 +180,16 @@ nav {
             margin-bottom: 20px;
             border-radius: 30px;
         }
-        &:hover {
-            cursor: pointer;
-        }
-
         &:hover img {
             transform: scale(1.02);
         }
         &:hover img.no-link {
             transform: scale(1);
-            cursor: auto;
+
         }
     }
     .no-link:hover {
-      cursor: default;
+
     }
 }
 
@@ -682,4 +678,24 @@ input:checked + .slider:before {
       color: $mid-color;
     }
   }
+}
+//cursor
+.cursor-dot,
+.cursor-dot-outline {
+    pointer-events: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    border-radius: 50%;
+    opacity: 0;
+    transform: translate(-50%, -50%);
+    transition: opacity 0.3s ease-in-out,
+                transform 0.3s ease-in-out;
+}
+
+.cursor-dot {
+    $size: 8px;
+    width: $size;
+    height: $size;
+    background-color: black;
 }

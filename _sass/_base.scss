@@ -12,6 +12,12 @@ dl, dd, ol, ul, figure {
   background: $mid-color;
   color: $light-color;
 }
+//cursor
+html, * {
+  a:hover, .slider:hover {
+    cursor: url('data:image/svg+xml;charset=utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" height="28" width="28"><text y="28" font-size="28">👆</text></svg>'), auto;
+  }
+}
 
 //Dark Theme
 .theme-dark {
