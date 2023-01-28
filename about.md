@@ -80,7 +80,7 @@ If you would like to find out a bit more about my career path, check my <a class
       <li class="reveal">Product Design</li>
       <li class="reveal">User Experience</li>
       <li class="reveal">Design Strategy</li>
-      <li class="reveal">Design Managment</li>
+      <li class="reveal">Design Management</li>
       <li class="reveal">Design Research</li>
       <li class="reveal">User Centered Design</li>
       <li class="reveal">Design Sprints</li>
