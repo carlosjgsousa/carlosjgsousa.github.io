@@ -8,7 +8,6 @@ redirect_from:
   - /blog/does-your-design-team-have-a-design-process.html
 
 ---
-<p><img src="/assets/images/design-process.jpeg" alt="Design process"></p>
 <p>When I started my career, design meant something more ‘artistic’, it was either graphic design or interior design, there was no such thing as UX, UI or product, at least not in the sense that we mean it today.</p>
 <p>Over the years the word design has morphed into many things but its underlying meaning is still the same, <strong>function over form</strong>, or as Steve Jobs put it, <em>“ It’s not just what it looks like and feels like. Design is how it works.”</em></p>
 <p>But if design is function, <strong>what</strong> function it should be? <strong>Who</strong> is it for? <strong>When</strong> will it work or <strong>where</strong> and <strong>how</strong>? And most importantly, <strong>why</strong>? All important questions that need an answer before everything else.</p>

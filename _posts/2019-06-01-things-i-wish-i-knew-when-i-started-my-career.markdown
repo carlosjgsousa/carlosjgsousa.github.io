@@ -7,7 +7,6 @@ description: If I ever had a coach or a mentor, these would be the things I wish
 redirect_from:
   - /blog/things-i-wish-i-knew-when-i-started-my-career.html
 ---
-<p><img src="/assets/images/design-shortcut.png" alt=""></p>
 <p>I often think about what would my career be if I had some coaching or mentorship in the first years as a designer. Going to college we expect to be somewhat prepared for the real world but for many people, myself included, that's not the case.
 </p>
 <p>I'm going to very broadly outline what I've learnt so far and, in my point of view, explain how a designer should go about and design something, so if you are a designer just out of college or planning on being one, I hope this helps.

@@ -7,8 +7,6 @@ description: Lets just hope that most of us are ready for what will be expected.
 redirect_from:
 - /blog/designers-expectations-is-it-all-on-us.html
 ---
-<img src="/assets/images/designers-expectations.png" alt="Design expectations">
-
 Let me tell you a story. This was 2008, I was out of college looking for my first job as a designer. Your typical big tech start-up or a rich design culture didn’t exist back then, so one had to look very hard to find something reasonable.
 
 Let me tell you why reasonable. Back in 2008 an average design job spec went on like this:
