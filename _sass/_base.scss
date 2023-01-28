@@ -12,14 +12,9 @@ dl, dd, ol, ul, figure {
   background: $mid-color;
   color: $light-color;
 }
-//cursor
-html, * {
-  a:hover, .slider:hover {
-    cursor: url('data:image/svg+xml;charset=utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" height="28" width="28"><text y="28" font-size="28">👆</text></svg>'), auto;
-  }
-}
 
 //Dark Theme
+/*
 .theme-dark {
   a {
       color: $brand-color-dark;
@@ -72,7 +67,7 @@ html, * {
          color: $light-color;
   }
 }
-
+*/
 /**
  * Basic styling
  */
@@ -92,10 +87,6 @@ body {
     -moz-font-smoothing: antialiased;
     -o-font-smoothing: antialiased;
     font-smoothing: antialiased;
-    @include dark-mode {
-      background-color: $dark-color;
-      color: $light-color;
-    }
 }
 
 
@@ -187,13 +178,9 @@ a {
     text-decoration: none;
     transition: all .3s ease-in-out;
     position: relative;
-    @include dark-mode {
-      color: $brand-color-dark;
-    }
+    
     &:visited {
-        @include dark-mode {
-          color: $brand-color-dark;
-        }
+        
         color: $brand-color;
     }
 
@@ -209,10 +196,7 @@ a {
         z-index: -1;
         background-color: $brand-color;
         opacity: .2;
-        @include dark-mode {
-          background-color: $brand-color-dark;
-          opacity: .3;
-        }
+        
         transform: scaleY(0);
         transform-origin: bottom;
         transition: transform .2s ease-in-out;
@@ -244,9 +228,7 @@ blockquote {
 }
 blockquote:before {
     color: $dark-color;
-    @include dark-mode{
-      color: $light-color;
-    };
+    
     display: inline-block;
     content: "“";
     position: absolute;
@@ -257,9 +239,7 @@ blockquote:before {
 }
 blockquote:after {
     color: $dark-color;
-    @include dark-mode{
-      color: $light-color;
-    };
+    
     display: inline-block;
     content: "”";
     position: absolute;

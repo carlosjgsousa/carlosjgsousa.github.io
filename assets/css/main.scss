@@ -30,13 +30,13 @@ $on-laptop:        800px;
         @content;
     }
 }
-
+/*
 @mixin dark-mode {
   @media (prefers-color-scheme: dark) {
     @content;
   }
 }
-
+*/
 @keyframes fadein {
     from { opacity: 0; }
     to   { opacity: 1; }
