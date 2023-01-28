@@ -21,10 +21,36 @@ Personality-wise, Belbin team role says I’m a Shaper, Myers–Briggs Type Indi
 If you would like to find out a bit more about my career path, check my <a class="" href="https://www.linkedin.com/in/carlosjgsousa">LinkedIn</a> or <a class=" " href="#contact">contact me </a> using the form below.
 
 <ul class="gallery">
-  <li><img src="../assets/images/skate.gif" alt="Carlos skating"></li>
-  <li><img src="../assets/images/photography.jpg" alt="Carlos taking a picture"></li>
-  <li><img src="../assets/images/profile_3.jpg" alt="Carlos at a snowy landscape"></li>
-  <li><img src="../assets/images/joy.jpeg" alt="Carlos dog Joy"></li>
+  <li>
+    <img src="../assets/images/profile/skate.gif" alt="Carlos skating">
+  </li>
+  <li>
+      <picture>
+        <source media="(min-width: 600px)" srcset="../assets/images/profile/photography.webp" type="image/webp">
+        <source media="(min-width: 600px)" srcset="../assets/images/profile/photography.jpg" type="image/jpeg">
+        <source srcset="../assets/images/profile/photography_small.webp" type="image/webp">
+        <source srcset="../assets/images/profile/photography_small.jpg" type="image/jpeg">
+        <img src="../assets/images/profile/photography.jpg" alt="Carlos taking a picture">
+      </picture>
+  </li>
+  <li>
+      <picture>
+        <source media="(min-width: 600px)" srcset="../assets/images/profile/profile_3.webp" type="image/webp">
+        <source media="(min-width: 600px)" srcset="../assets/images/profile/profile_3.jpg" type="image/jpeg">
+        <source srcset="../assets/images/profile/profile_3_small.webp" type="image/webp">
+        <source srcset="../assets/images/profile/profile_3_small.jpg" type="image/jpeg">
+        <img src="../assets/images/profile/profile_3.jpg" alt="Carlos at a snowy landscape">
+      </picture>
+    </li>
+  <li>
+      <picture>
+        <source media="(min-width: 600px)" srcset="../assets/images/profile/joy.webp" type="image/webp">
+        <source media="(min-width: 600px)" srcset="../assets/images/profile/joy.jpg" type="image/jpeg">
+        <source srcset="../assets/images/profile/joy_small.webp" type="image/webp">
+        <source srcset="../assets/images/profile/joy_small.jpg" type="image/jpeg">
+        <img src="../assets/images/profile/joy.jpeg" alt="Carlos dog Joy">
+      </picture>
+    </li>
 </ul>
 
 <div class="spacer reveal work-skills">
