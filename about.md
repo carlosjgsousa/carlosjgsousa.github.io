@@ -30,7 +30,7 @@ If you would like to find out a bit more about my career path, check my <a class
         <source media="(min-width: 600px)" srcset="../assets/images/profile/photography.jpg" type="image/jpeg">
         <source srcset="../assets/images/profile/photography_small.webp" type="image/webp">
         <source srcset="../assets/images/profile/photography_small.jpg" type="image/jpeg">
-        <img src="../assets/images/profile/photography.jpg" alt="Carlos taking a picture">
+        <img src="../assets/images/profile/photography.jpg" alt="Carlos taking a picture" width="405" height="540">
       </picture>
   </li>
   <li>
@@ -39,7 +39,7 @@ If you would like to find out a bit more about my career path, check my <a class
         <source media="(min-width: 600px)" srcset="../assets/images/profile/profile_3.jpg" type="image/jpeg">
         <source srcset="../assets/images/profile/profile_3_small.webp" type="image/webp">
         <source srcset="../assets/images/profile/profile_3_small.jpg" type="image/jpeg">
-        <img src="../assets/images/profile/profile_3.jpg" alt="Carlos at a snowy landscape">
+        <img src="../assets/images/profile/profile_3.jpg" alt="Carlos at a snowy landscape" loading="lazy" width="425" height="566">
       </picture>
     </li>
   <li>
@@ -48,7 +48,7 @@ If you would like to find out a bit more about my career path, check my <a class
         <source media="(min-width: 600px)" srcset="../assets/images/profile/joy.jpg" type="image/jpeg">
         <source srcset="../assets/images/profile/joy_small.webp" type="image/webp">
         <source srcset="../assets/images/profile/joy_small.jpg" type="image/jpeg">
-        <img src="../assets/images/profile/joy.jpeg" alt="Carlos dog Joy">
+        <img src="../assets/images/profile/joy.jpeg" alt="Carlos dog Joy"  loading="lazy" width="405" height="719">
       </picture>
     </li>
 </ul>
