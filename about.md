@@ -115,7 +115,7 @@ If you would like to find out a bit more about my career path, check my <a class
   </div>
 </div>
 <section class="spacer reveal clients-list">
-  <h2>Some past clients</h2>
+  <h2>Some Past Clients</h2>
   <ul>
     <li><img src="../assets/images/clients/clients_1.svg" alt="clients logos meo and energia"></li>
     <li><img src="../assets/images/clients/clients_2.svg" alt="clients logos eir and vodafone"></li>
