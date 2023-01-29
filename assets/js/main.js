@@ -35,5 +35,33 @@ function changeWord() {
 
 // call the changeWord function every 3 seconds
 setInterval(changeWord, 5000);
+
+// function to calculate reading time
+function calculateReadingTime(text) {
+  // average reading speed is around 200-300 words per minute
+  const wordsPerMinute = 250;
+  // split the text into an array of words
+  const wordCount = text.split(' ').length;
+  // calculate the reading time in minutes
+  const readingTime = wordCount / wordsPerMinute;
+  return Math.ceil(readingTime);
+}
+
+const articleTextEl = document.getElementById('article-text');
+if(articleTextEl){
+  // retrieve the text content of the element
+  const articleText = articleTextEl.textContent;
+
+  // get the reading time element
+  const readingTimeEl = document.getElementById('reading-time');
+  
+  // calculate the reading time
+  const readingTime = calculateReadingTime(articleText);
+  
+  // display the reading time in the reading time element
+  readingTimeEl.textContent = `Reading time: ${readingTime} minutes`;
+} else {
+  //nothing
+}
   
 });
