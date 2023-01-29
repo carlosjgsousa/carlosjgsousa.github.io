@@ -117,9 +117,9 @@ If you would like to find out a bit more about my career path, check my <a class
 <section class="spacer reveal clients-list">
   <h2>Some past clients</h2>
   <ul>
-    <li><img src="../assets/images/clients/clients_1.svg" alt=""></li>
-    <li><img src="../assets/images/clients/clients_2.svg" alt=""></li>
-    <li><img src="../assets/images/clients/clients_3.svg" alt=""></li>
-    <li><img src="../assets/images/clients/clients_4.svg" alt=""></li>
+    <li><img src="../assets/images/clients/clients_1.svg" alt="clients logos meo and energia"></li>
+    <li><img src="../assets/images/clients/clients_2.svg" alt="clients logos eir and vodafone"></li>
+    <li><img src="../assets/images/clients/clients_3.svg" alt="clients logos kbc and bank of ireland"></li>
+    <li><img src="../assets/images/clients/clients_4.svg" alt="clients logos RMS and soravia"></li>
   </ul>
 </section>
