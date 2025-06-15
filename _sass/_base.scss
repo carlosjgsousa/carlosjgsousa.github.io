@@ -184,29 +184,6 @@ a {
         
         color: $brand-color;
     }
-
-    &:hover {
-        opacity: 1;
-    }
-    &:before {
-        content: "";
-        position: absolute;
-        bottom: 15%;
-        width: 100%;
-        height: 45%;
-        z-index: -1;
-        background-color: $brand-color;
-        opacity: .2;
-        
-        transform: scaleY(0);
-        transform-origin: bottom;
-        transition: transform .2s ease-in-out;
-        will-change: transform;
-    }
-    &:hover::before {
-      transform: scaleY(1);
-      transform-origin: bottom;
-    }
 }
 
 .post-list > li:hover .work-link::before {
@@ -289,7 +266,6 @@ pre {
     margin-left: auto;
     padding-right: $spacing-unit;
     padding-left: $spacing-unit;
-    @extend %clearfix;
 
     @include media-query($on-laptop) {
         max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit}));

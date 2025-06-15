@@ -2,14 +2,35 @@
  * Site header
  */
 
+.site-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  @include media-query($on-palm) {
+    position: static;
+    display: block;
+  }
+  
+  .wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    @include media-query($on-palm) {
+      display: block;
+      width: auto;
+    }
+  } 
+}
+
 .site-title {
     font-size: 24px;
     line-height: 1.5rem;
-    top: 50px;
     color: $dark-color;
     display: inline-block;
-    position: fixed;
     font-weight: 700;
+    justify-content: flex-start;
     
     &,
     &:hover, &:visited {
@@ -23,7 +44,7 @@
     @include media-query($on-palm) {
         position: relative;
         top: auto;
-        margin: 40px 0 0 0;
+        margin: 20px 0 0 0;
         font-size: 28px;
     }
 }
@@ -35,12 +56,10 @@ nav {
         list-style: none;
         display: flex;
         flex-wrap: wrap;
-        flex-direction: column;
+        flex-direction: row;
         font-size: 1rem;
-        position: fixed;
-        top: 150px;
         li {
-            margin-bottom: 20px;
+            margin-left: 60px;
             font-weight: normal;
         }
         @include media-query($on-palm) {
@@ -48,11 +67,10 @@ nav {
             flex-wrap: wrap;
             position: static;
             flex-direction: row;
-            top: 0;
             justify-content: space-between;
             margin: 30px 0 0 0;
             li {
-                margin-bottom: 0px;
+                margin-left: 0px;
             }
         }
     }
@@ -61,26 +79,29 @@ nav {
 /**
  * Site footer
  */
+ .site-footer {
+  padding: 0 20px;
+ }
 .social-media-list {
-  position: fixed;
-  bottom: 20px;
-  margin: 0;
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 40px;
+  margin-left: 0;
   @include media-query($on-palm) {
-      position: relative;
-      display: flex;
       flex-wrap: wrap;
       justify-content: space-between;
+
   }
 }
 .social-media-list li {
   list-style: none;
-  margin-bottom: 20px;
+  margin-left: 60px;
   font-size: 14px;
   font-weight: normal;
   @include media-query($on-palm) {
-      margin-bottom: 0;
       text-align: center;
       display: flex;
+      margin-left: 0;
   }
 }
 .social-media-list li a:hover {
@@ -131,11 +152,14 @@ nav {
    }
 }
 .page-content {
-    padding: $spacing-unit 0;
+    padding: 100px 0;
+    @include media-query($on-palm) {
+      padding: 20px;
+    }
 }
 .content {
   width: calc(80% - (#{$spacing-unit} / 2));
-  float: right;
+  margin: 0 auto;
   @include media-query($on-palm) {
       float: none;
       width: 100%;
