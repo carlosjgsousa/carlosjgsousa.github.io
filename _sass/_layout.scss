@@ -90,7 +90,6 @@ nav {
   @include media-query($on-palm) {
       flex-wrap: wrap;
       justify-content: space-between;
-
   }
 }
 .social-media-list li {
@@ -204,11 +203,9 @@ nav {
         }
         &:hover img.no-link {
             transform: scale(1);
-
         }
-    }
-    .no-link:hover {
-
+        -webkit-backface-visibility: hidden;
+        backface-visibility: hidden;
     }
 }
 
@@ -359,6 +356,7 @@ nav {
     img {
         transition: all .2s ease-in-out;
         -webkit-backface-visibility: hidden;
+        backface-visibility: hidden;
     }
     > p {
       margin: 1.5rem 0 4rem 0;
@@ -437,6 +435,7 @@ input[type="submit"], .button {
     font-size: 16px;
     cursor: pointer;
     -webkit-appearance: none;
+    appearance: none;
     transition: all .2s ease-in-out;
     box-sizing: border-box;
     text-align: center;
