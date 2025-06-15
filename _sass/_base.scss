@@ -28,9 +28,8 @@ body {
     font-kerning: normal;
     animation: fadein ease-in 1s;
     -webkit-font-smoothing: antialiased;
-    -moz-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
     -o-font-smoothing: antialiased;
-    font-smoothing: antialiased;
 }
 
 
