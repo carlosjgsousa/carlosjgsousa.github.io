@@ -12,62 +12,6 @@ dl, dd, ol, ul, figure {
   background: $mid-color;
   color: $light-color;
 }
-
-//Dark Theme
-/*
-.theme-dark {
-  a {
-      color: $brand-color-dark;
-      &:visited {
-          color: $brand-color-dark;
-      }
-      &:before {
-          background-color: $brand-color-dark;
-          opacity: .3;
-      }
-
-  }
-  body {
-      background-color: $dark-color;
-      color: $light-color;
-  }
-  .site-title {
-      color: $light-color;
-    &,
-    &:hover, &:visited {
-        color: $light-color;
-        box-shadow: none;
-    }
-    &:before {
-      display: none;
-    }
-  }
-  .title-tag {
-      color: $mid-color;
-  }
-  input[type="submit"], .button {
-    color: $brand-color-dark;
-    border: 2px solid $brand-color-dark;
-    &:hover {
-        box-shadow: 0 2px 5px 0px rgba(0,0,0,.2);
-        background: $brand-color-dark;
-        color: $light-color;
-    }
-    &::before {
-      display: none;
-    }
-    &:hover::before {
-      display: none
-    }
-  }
-  .share-buttons > div > svg {
-    fill: $light-color;
-  }
-  blockquote::before,blockquote::after {
-         color: $light-color;
-  }
-}
-*/
 /**
  * Basic styling
  */
@@ -179,9 +123,10 @@ a {
     text-decoration: none;
     transition: all .3s ease-in-out;
     position: relative;
-    
+    &:hover {
+        text-decoration: underline;
+    }
     &:visited {
-        
         color: $brand-color;
     }
 }
