@@ -60,16 +60,16 @@ If you would like to find out a bit more about my career path, check my <a class
       <li class="reveal">
           <span class="date">2020 - Present</span>
           Nagarro <br>
-          Senior Product Designer
+          Experience Designer
       </li>
       <li class="reveal">
           <span class="date">2016 - 2020</span>
           Vodafone <br>
-          Senior Product Designer, Design Manager
+          Design Manager
       </li>
       <li class="reveal">
           <span class="date">2013 - 2016</span>
-          Strata3 <br>
+          All Human <br>
           Senior UX Designer
       </li>
       <li class="reveal">
