@@ -80,64 +80,10 @@ nav {
 /**
  * Site footer
  */
- .site-footer {
-  padding: 0 20px;
- }
-.social-media-list {
-  display: flex;
-  justify-content: flex-end;
-  margin-bottom: 40px;
-  margin-left: 0;
-  @include media-query($on-palm) {
-      flex-wrap: wrap;
-      justify-content: space-between;
-  }
-}
-.social-media-list li {
-  list-style: none;
-  margin-left: 60px;
-  font-size: 14px;
+ footer {
+  text-align: center;
   font-weight: normal;
-  @include media-query($on-palm) {
-      text-align: center;
-      display: flex;
-      margin-left: 0;
-  }
-}
-.social-media-list li a:hover {
-  @include media-query($on-palm) {
-      margin-left: 0;
-  }
-}
-.social-media-list::after {
-    @include media-query($on-palm) {
-        content: '';
-        width: 100%;
-    }
-}
-.social-media-list .email-button {
-    @include media-query($on-palm) {
-        order: 0;
-        width: 100%;
-    }
-}
-.social-media-list .email-button a {
-    @include media-query($on-palm) {
-        display: block;
-        width: 80%;
-        margin: 0 auto 30px auto;
-        text-align: center;
-        border: 2px solid;
-        padding: 15px 20px;
-        border-radius: 50px;
-        font-size: 18px;
-        &:hover {
-            margin: 0 auto 30px auto;
-            box-shadow: none;
-        }
-    }
-
-}
+ }
 
 /**
  * Page content
