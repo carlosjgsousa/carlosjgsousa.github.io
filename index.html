@@ -3,7 +3,7 @@ layout: default
 ---
 <div class="home">
     <div class="profile spacer reveal">
-        <h1>Hello there. I'm Carlos, a designer with over 15 years of experience based in sunny Portugal.</h1>
+        <h1>Hello there. I'm Carlos, a designer with about 20 years of experience based in sunny Portugal.</h1>
         <p class="intro">I work remotely as a designer at <a href="https://www.nagarro.com/dv" target="_blank">Nagarro</a>, turning clients' needs into validated working products and services through a human-centred design approach.</p>
         <p><a class=" " href="/about">More about me</a></p>
         <ul class="gallery">
@@ -33,15 +33,13 @@ layout: default
     <ul class="post-list">
       <li class="reveal no-link">
         <picture class="no-link">
-        <source media="(min-width: 600px)" srcset="assets/images/work/poc@2x.webp" type="image/webp">
-        <source media="(min-width: 600px)" srcset="assets/images/work/poc@2x.jpg" type="image/jpeg">
-        <source srcset="assets/images/work/poc_small@2x.webp" type="image/webp">
-        <source srcset="assets/images/work/poc_small@2x.jpg" type="image/jpeg">
-        <img class="no-link" src="assets/images/work/poc@2x.jpg" width="395" height="592" alt="Bike Sharing App" loading="lazy">
+        <source media="(min-width: 600px)" srcset="assets/images/work/veenyl.jpg" type="image/jpeg">
+        <source srcset="assets/images/work/veenyl.jpg" type="image/jpeg">
+        <img class="no-link" src="assets/images/work/veenyl.jpg" width="395" height="592" alt="Veenyl App" loading="lazy">
         </picture>
         <section class="work-title">
-          <h3>GPTs and Agents</h3>
-          <p>I developed several GPTs and agents to accelerate the innovation process. From GPTs to perform market and industry analysis to proto-personas to kick-start ideation process all in the name of fast prototyping and experimentation.</p>
+          <h3>Veenyl</h3>
+          <p>I built Veenyl as an experiment to see how far GenAI could take a real product, from idea to production, without writing code or designing screens myself. The app is live in App Store and Google Play with real users.</p>
         </section>
       </li>
       <li class="reveal no-link">
@@ -143,12 +141,6 @@ layout: default
   </div>
   <div class="selected-article spacer reveal">
     <h2 class="title-tag">Writtings</h2>
-    <article class="selected-article--card">
-      <div class="selected-article--content">
-        <h2><a class=" " href="https://www.nagarro.com/en/blog/ai-accelerate-product-innovation-process">How AI can help you accelerate your product innovation process</a></h2>
-        <p>This article explores how an innovation strategy, and a structured approach can help in that journey. We explain what digital product innovation is, the different types of it, and the process for managing it successfully. </p>
-      </div>
-  </article>
     {% for post in site.categories.articles limit:3 %}
             <article class="selected-article--card">
               <div class="selected-article--content">
